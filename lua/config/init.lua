@@ -11,9 +11,32 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+require("config.globals") -- Sets vim.mapleader option
 
--- Example using a list of specs with the default options
--- This is required to initialise Lazy
-vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
+local opts = {
+	defaults = {
+		lazy = true,
+	},
+	install = {
+		colorscheme = { "nightfox" }
+	},
+	rtp = {
+	disabled_plugins = {
+		"gzip",
+		"matchit",
+		"matchparen",
+		"netrwPlugin",
+		"tarPlugin",
+		"tohtml",
+		"tutor",
+		"zipPlugin",
+	}
+	},
+	change_detection = {
+		enabled = true,
+		notify = true,
+	},
+}
+		
 
-require("lazy").setup("plugins")
+require("lazy").setup("plugins", opts)
