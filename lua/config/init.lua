@@ -26,6 +26,7 @@ local opts = {
 		"gzip",
 		"matchit",
 		"matchparen",
+    "netrw",
 		"netrwPlugin",
 		"tarPlugin",
 		"tohtml",
