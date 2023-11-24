@@ -12,6 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("config.globals") -- Sets vim.mapleader option
+require("config.options")
 
 local opts = {
 	defaults = {
