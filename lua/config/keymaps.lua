@@ -13,9 +13,10 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>", opts) -- Toggle Minimize
 
 
 
-  keymap.set("v", "<", "<gv")
-  keymap.set("v", ">", ">gv")
+-- keymap.set("v", "<", "<gv")
+-- keymap.set("v", ">", ">gv")
 
-  -- Comments
-  vim.api.nvim_set_keymap("n", "<C-_>", "gcc", { noremap = false }) -- Toggle Minimize
-  vim.api.nvim_set_keymap("v", "<C-_>", "gcc", { noremap = false }) -- Toggle Minimize
+
+-- Comments
+vim.api.nvim_set_keymap("n", "<C-_>", "gcc", { noremap = false }) -- Toggle Minimize
+vim.api.nvim_set_keymap("v", "<C-_>", "gcc", { noremap = false }) -- Toggle Minimize
