@@ -8,3 +8,4 @@ Most of this setup is a copy of [this](https://github.com/radleylewis/nvim) nvim
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) (note that has a dependency on ripgrep. Use `sudo apt install ripgrep`)
 - [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
 - [monokai colorscheme](https://github.com/tanvirtin/monokai.nvim)
+- [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
