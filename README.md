@@ -15,3 +15,4 @@ Most of this setup is a copy of [this](https://github.com/radleylewis/nvim) nvim
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 - [vim-illuminate](https://github.com/RRethy/vim-illuminate)
 - [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank)
+- [lualine](https://github.com/nvim-lualine/lualine.nvim)
