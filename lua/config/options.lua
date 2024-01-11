@@ -23,6 +23,8 @@ opt.signcolumn = "yes"
 opt.cmdheight = 1
 opt.scrolloff = 10
 opt.completeopt = "menuone,noinsert,noselect"
+opt.cursorline = true
+opt.autoread = true
 
 -- Behaviour
 opt.hidden = true
@@ -41,3 +43,4 @@ opt.clipboard:append("unnamedplus")
 opt.modifiable = true
 -- opt.guircursor = 
 opt.encoding = "UTF-8"
+opt.autowrite = true
