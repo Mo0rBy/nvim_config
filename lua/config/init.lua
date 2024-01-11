@@ -40,6 +40,5 @@ local opts = {
 		notify = true,
 	},
 }
-		
 
 require("lazy").setup("plugins", opts)
