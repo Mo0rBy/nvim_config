@@ -11,8 +11,11 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-local plugins = {
-    require("core.colorscheme") 
-}
+require("core.keymaps")
 
-require("lazy").setup(plugins)
+require("lazy").setup(
+    {
+        {import = "core.colorscheme"},
+        {import = "plugins"},
+    }
+)
