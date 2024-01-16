@@ -11,11 +11,8 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("core.keymaps")
-
 require("lazy").setup(
     {
-        {import = "core.colorscheme"},
-        {import = "plugins"},
+        {import = "moorby.plugins"},
     }
 )
