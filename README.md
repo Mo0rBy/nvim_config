@@ -22,3 +22,6 @@ This neovim config is used by myself on a daily basis. This config uses lazy.nvi
     - [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - used for better commenting in files with multiple comment formats
 - [vim-maximizer](https://github.com/szw/vim-maximizer) - used to maximize (and return to normal) a split
 - [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim) - makes it easier to see indentation (my configuration uses the `scope` too)
+- [lualine](https://github.com/nvim-lualine/lualine.nvim) - adds a status line, this has dependencies for:
+    - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) - better icons for filetypes
+
