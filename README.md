@@ -21,3 +21,5 @@ This neovim config is used by myself on a daily basis. This config uses lazy.nvi
     - [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
     - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
     - [lspkind](https://github.com/onsails/lspkind.nvim)
+
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - provides better syntax highlighting
