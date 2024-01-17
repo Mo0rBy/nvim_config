@@ -3,7 +3,6 @@ vim.g.maplocalleader = " "
 
 local keymap = vim.keymap
 
--- general keymaps
 keymap.set("n", "x", '"_x') -- set 'x' in normal to NOT copy to register
 
 keymap.set("n", "<leader>+", "<C-a>") -- set keymap to increment numbers up
