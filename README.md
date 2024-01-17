@@ -21,4 +21,4 @@ This neovim config is used by myself on a daily basis. This config uses lazy.nvi
 - [comment](https://github.com/numToStr/Comment.nvim) - used for better commenting functionality, this has dependencies for:
     - [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - used for better commenting in files with multiple comment formats
 - [vim-maximizer](https://github.com/szw/vim-maximizer) - used to maximize (and return to normal) a split
-
+- [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim) - makes it easier to see indentation (my configuration uses the `scope` too)
