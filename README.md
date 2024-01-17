@@ -12,7 +12,7 @@ This neovim config is used by myself on a daily basis. This config uses lazy.nvi
     - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) - better icons for filetypes
 
 - [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) - adds useful keymaps for navigating splits within vim and tmux
-- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Used for autocompletion snippets
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - used for autocompletion snippets
     
     Has dependencies for:
     - [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
@@ -23,3 +23,9 @@ This neovim config is used by myself on a daily basis. This config uses lazy.nvi
     - [lspkind](https://github.com/onsails/lspkind.nvim)
 
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - provides better syntax highlighting
+- [comment](https://github.com/numToStr/Comment.nvim) - used for better commenting functionality
+
+    Has dependencies for:
+    - [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - used for better commenting in files with multiple comment formats
+
+
