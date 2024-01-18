@@ -5,7 +5,7 @@ return {
   config = function()
     require("lualine").setup{
       options = {
-        theme = require("lualine.themes.molokai"),
+        theme = require("lualine.themes.nightfly"),
         globalstatus = true
       },
     }

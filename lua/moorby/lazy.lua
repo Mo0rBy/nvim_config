@@ -16,7 +16,7 @@ local opts = {
 		lazy = true,
 	},
 	install = {
-		colorscheme = { "monokai" }
+		colorscheme = { "nightfly" }
 	},
 	rtp = {
     disabled_plugins = {

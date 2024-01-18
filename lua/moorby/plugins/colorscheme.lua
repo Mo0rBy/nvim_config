@@ -1,6 +1,10 @@
 return {
-  "tanvirtin/monokai.nvim",
+  "bluz71/vim-nightfly-colors",
+  name = "nightfly",
   lazy = false,
-  priority = 999,
-  config = {},
+  priority = 1000,
+  config = function()
+    -- load the colorscheme here
+    vim.cmd([[colorscheme nightfly]])
+  end,
 }
