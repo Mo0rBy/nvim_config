@@ -123,11 +123,11 @@ return {
           on_attach = function(client, bufnr)
             on_attach(client, bufnr) -- run the standard on_attach function defined above
 
-            -- disable yamlls Diagnostics on helm files (this is dependent on "towolf/vim-helm")
+            --[[ -- disable yamlls Diagnostics on helm files (this is dependent on "towolf/vim-helm")
             -- without this the yamlls LSP server will show loads of errors in helm chart repositories
             if vim.bo[bufnr].buftype ~= "" or vim.bo[bufnr].filetype == "helm" then
               vim.diagnostic.disable()
-            end
+            end ]]
           end
         })
 
