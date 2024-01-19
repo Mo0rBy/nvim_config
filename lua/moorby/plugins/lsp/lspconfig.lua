@@ -35,7 +35,6 @@ return {
       "terraformls",
       "tflint",
       "lemminx",
-      "hydra_lsp",
       "yamlls"
     }
 
