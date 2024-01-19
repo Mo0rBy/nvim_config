@@ -42,10 +42,9 @@ return {
         "terraformls",
         "tflint",
         "lemminx",
-        "hydra_lsp",
         "yamlls"
       },
-      automatic_installation = true -- auto-install LSP servers for languages not already installed when relevant file type is opened
+      automatic_installation = false  -- do not auto-install LSP servers for languages not already installed when relevant file type is opened
     })
   end
 }
