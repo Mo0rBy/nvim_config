@@ -116,6 +116,19 @@ return {
           }
         })
 
+      elseif (lsp == "helm_ls") then -- configure helm_ls with special settings
+        lspconfig["helm_ls"].setup({
+          capabilities = capabilities,
+          on_attach = on_attach,
+          settings = {
+            ["helm-ls"] = {
+              yamlls = {
+                enabled = false
+              }
+            }
+          }
+        })
+
       else -- add more conditionals for other LSP's if required
         lspconfig[lsp].setup({
           capabilities = capabilities,
