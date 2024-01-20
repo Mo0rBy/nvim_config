@@ -76,12 +76,12 @@ This is a list of all the plugins I use in my Neovim config.
 #### Auto-completion features
 
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - used for autocompletion snippets, this has dependencies for:
-    - [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
-    - [cmp-path](https://github.com/hrsh7th/cmp-path)
-    - [LuaSnip](https://github.com/hrsh7th/cmp-path)
-    - [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
-    - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
-    - [lspkind](https://github.com/onsails/lspkind.nvim) - integrate installed LSP's with autocompletion
+    - [cmp-buffer](https://github.com/hrsh7th/cmp-buffer) - completion source from text in current buffer
+    - [cmp-path](https://github.com/hrsh7th/cmp-path) - completion source from filesystem paths
+    - [LuaSnip](https://github.com/L3MON4D3/LuaSnip) - a snippet engine
+    - [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip) - completion source from snippet engines
+    - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) - snippets for various languages
+    - [lspkind](https://github.com/onsails/lspkind.nvim) - nice icons for autocompletion
 - [mason](https://github.com/williamboman/mason.nvim) - this is a plugin manager for LSP servers, this has dependencies for:
     - [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim) - this plugin makes it easier to use lspconfig with Mason 
 - [lspconfig](https://github.com/neovim/nvim-lspconfig) - this plugin allows setup and configuration of LSP servers
