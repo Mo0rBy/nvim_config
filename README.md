@@ -4,11 +4,13 @@ This repository contains files relevant to my development environment and other 
 
 <!-- toc -->
 
-- [Tmux](#tmux)
+- [Alacritty](#alacritty)
   * [Relevant files](#relevant-files)
+- [Tmux](#tmux)
+  * [Relevant files](#relevant-files-1)
   * [Plugins](#plugins)
 - [Neovim](#neovim)
-  * [Relevant files](#relevant-files-1)
+  * [Relevant files](#relevant-files-2)
   * [Plugins](#plugins-1)
     + [Quality of life](#quality-of-life)
     + [Colourscheme/themeing/UI modifications](#colourschemethemeingui-modifications)
@@ -18,13 +20,22 @@ This repository contains files relevant to my development environment and other 
 
 <!-- tocstop -->
 
+## Alacritty
+
+I use [Alacritty](https://github.com/alacritty/alacritty) for my terminal needs. 
+It's super fast and I love that all it's configuration and settings are set in a toml file
+
+### Relevant files
+
+- [alacritty](alacritty)
+
 ## Tmux
 
 I use my terminal ALL the time. [Tmux](https://github.com/tmux/tmux) helps me to increase my productivity when in my terminal. The primary utility of Tmux is that it allows me to quickly switch between Neovim and a CLI terminal window.
 
 ### Relevant files
 
-- [tmux/tmux](tmux)
+- [tmux](tmux)
 
 ### Plugins
 
