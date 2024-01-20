@@ -1,3 +1,5 @@
+NOTE: Need to reorganise this README to be relevant to all `~/.config` things
+
 # Mo0rBy's neovim configuration
 
 This neovim config is used by myself on a daily basis. This config uses lazy.nvim as the plugin manager and uses the lua language.
