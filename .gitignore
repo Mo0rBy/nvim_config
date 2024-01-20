@@ -1,1 +1,10 @@
-lazy-lock.json
+# ignore other directories in ~/.config as required
+btop/
+gspread/
+iterm2/
+jgit/
+op/
+packer/
+
+# ignore files in nvim
+nvim/lazy-lock.json
