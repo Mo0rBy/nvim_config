@@ -1,6 +1,16 @@
 NOTE: Need to reorganise this README to be relevant to all `~/.config` things
 
-# Mo0rBy's neovim configuration
+# Mo0rBy's dotfiles
+
+This repository contains files relevant to my development environments and other dotfiles that I want to to sync across multiple machines.
+
+<!-- toc -->
+
+- [Plugins](#plugins)
+- [Notes](#notes)
+  * [Yaml and Helm chart sytanx highlighting and LSP](#yaml-and-helm-chart-sytanx-highlighting-and-lsp)
+
+<!-- tocstop -->
 
 This neovim config is used by myself on a daily basis. This config uses lazy.nvim as the plugin manager and uses the lua language.
 
