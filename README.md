@@ -5,8 +5,12 @@ This repository contains files relevant to my development environment and other 
 <!-- toc -->
 
 - [Alacritty](#alacritty)
+  * [Setup](#setup)
   * [Relevant files](#relevant-files)
+- [ZSH](#zsh)
+  * [Setup](#setup-1)
 - [Tmux](#tmux)
+  * [Setup](#setup-2)
   * [Relevant files](#relevant-files-1)
   * [Plugins](#plugins)
 - [Neovim](#neovim)
