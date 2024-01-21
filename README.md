@@ -37,6 +37,41 @@ To ensure you have the latest version installed and that the `toml` config file 
 
 - [alacritty](alacritty)
 
+## ZSH
+
+I use ZSH as my shell of choice as it has really nice customization options using oh-my-zsh and I love the autocomplete features it comes with.
+
+### Setup
+
+1. You need to install ZSH by following the instructions provided on the [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) Github repo, [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH).
+This should create some new files in your `$HOME` directory, namely the `.zshenv` and `.zshrc` files.
+
+2. In order to use the ZSH configuration in this repo, you need to complete a few more steps.
+Remove both `.zshenv` and `.zshrc` files that were generated when installing ZSH.
+Next symlink these paths with the files in this configuration: (the commands below assume that this repo is cloned to `~/.config`)  
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 525af1a ([WIP] Adding zsh configs to repo and updating README)
+```sh
+  ln -s ~/.config/zsh/.zshenv ~/.zshenv
+  ln -s ~/.config/zsh/.zshrc ~/.zshrc
+```
+
+3. Install ohmyzsh following their instructions [here](https://github.com/ohmyzsh/ohmyzsh) (this is a widely used tool that adds a ton of customization to the ZSH shell).
+
+
+<<<<<<< HEAD
+=======
+=======
+    ```sh
+    ln -s ~/.config/zsh/.zshenv ~/.zshenv
+    ln -s ~/.config/zsh/.zshrc ~/.zshrc
+    ```
+    This repository has a git submodule for the oh-my-zsh repository and the included `.zshrc` has a line telling ZSH where the oh-my-zsh installation is located.
+>>>>>>> 1695d46 (Adding .zshenv and .zshrc files for ZSH config. Added oh-my-zsh as a git submodule. Added info to README describing how to install ZSH and symlink the relevant ZSH config files.)
+>>>>>>> 525af1a ([WIP] Adding zsh configs to repo and updating README)
+
 ## Tmux
 
 I use my terminal ALL the time. [Tmux](https://github.com/tmux/tmux) helps me to increase my productivity when in my terminal. The primary utility of Tmux is that it allows me to quickly switch between Neovim and a CLI terminal window.
