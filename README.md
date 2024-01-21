@@ -25,6 +25,12 @@ This repository contains files relevant to my development environment and other 
 I use [Alacritty](https://github.com/alacritty/alacritty) for my terminal needs. 
 It's super fast and I love that all it's configuration and settings are set in a toml file
 
+Be aware that I ad issues on my Linux Ubuntu machine.
+When attempting to installed alacritty with `apt install alcritty`, version 0.11.0 was installed, not the latest version (0.13.1 at time of writing).
+This meant that my `alacritty.toml` config file was not used as this older version used a `yaml` file for it's config.
+
+To ensure you have the latest version installed and that the `toml` config file works, follow [these](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) instructions on the Alacritty Github page.
+
 ### Relevant files
 
 - [alacritty](alacritty)
