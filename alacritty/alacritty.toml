@@ -21,43 +21,47 @@ style = "Regular Italic"
 family = "MesloLGS NF"
 style = "Regular"
 
-
-# Colours + theming (coped from vim-nightfly-colors)
-[colors]
-draw_bold_text_with_bright_colors = true
-
-[colors.bright]
-black = "#7c8f8f"
-blue = "#82aaff"
-cyan = "#7fdbca"
-green = "#21c7a8"
-magenta = "#ae81ff"
-red = "#ff5874"
-white = "#d6deeb"
-yellow = "#ecc48d"
-
-[colors.cursor]
-cursor = "#9ca1aa"
-text = "#080808"
-
-[colors.normal]
-black = "#1d3b53"
-blue = "#82aaff"
-cyan = "#7fdbca"
-green = "#a1cd5e"
-magenta = "#c792ea"
-red = "#fc514e"
-white = "#a1aab8"
-yellow = "#e3d18a"
-
+# TokyoNight Alacritty Colors
+# Default colors
 [colors.primary]
-background = "#011627"
-bright_foreground = "#eeeeee"
-foreground = "#bdc1c6"
+background = '#1a1b26'
+foreground = '#c0caf5'
 
-[colors.selection]
-background = "#b2ceee"
-text = "#080808"
+#[colors.cursor]
+#cursor = '#c0caf5'
+#text = '#1a1b26'
+
+# Normal colors
+[colors.normal]
+black = '#15161e'
+red = '#f7768e'
+green = '#9ece6a'
+yellow = '#e0af68'
+blue = '#7aa2f7'
+magenta = '#bb9af7'
+cyan = '#7dcfff'
+white = '#a9b1d6'
+
+# Bright colors
+[colors.bright]
+black = '#414868'
+red = '#f7768e'
+green = '#9ece6a'
+yellow = '#e0af68'
+blue = '#7aa2f7'
+magenta = '#bb9af7'
+cyan = '#7dcfff'
+white = '#c0caf5'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#ff9e64'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#db4b4b'
+
 
 [window.padding]
 x = 10
