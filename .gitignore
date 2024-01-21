@@ -1,13 +1,22 @@
-# ignore everything (this prevents committing other things in ~/.config)
-*
+# ignore everything in root directory
+# (this prevents committing other things in ~/.config)
+/*
 
-# do not ignore these specific files
-.gitignore
-.gitmodules
-README.md
-.pre-commit-config.yaml
+# unignore these specific files
+!.gitignore
+!.gitmodules
+!README.md
+!.pre-commit-config.yaml
 
-# do not ignore these specific directories
-alacritty/*
-tmux/*
-nvim/*
+# unignore alacritty config
+!alacritty/alacritty.toml
+
+# unignore tmux config
+!tmux/tmux.conf
+
+# unignore nvim config
+!nvim/
+!nvim/**
+# ignore lazy-lock
+nvim/lazy-lock.json
+
