@@ -1,15 +1,13 @@
-# ignore other directories in ~/.config as required
-btop/
-fish/
-gspread/
-iterm2/
-jgit/
-op/
-packer/
-ranger/
+# ignore everything (this prevents committing other things in ~/.config)
+*
 
-# ignore files in nvim
-nvim/lazy-lock.json
+# do not ignore these specific files
+.gitignore
+.gitmodules
+README.md
+.pre-commit-config.yaml
 
-# ignore plugins cloned by tpm
-tmux/plugins/
+# do not ignore these specific directories
+alacritty/*
+tmux/*
+nvim/*
