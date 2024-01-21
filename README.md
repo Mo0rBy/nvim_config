@@ -108,7 +108,7 @@ This is a list of all the plugins I use in my Neovim config.
 
 #### Colourscheme/themeing/UI modifications
 
-- [Nightfly colorscheme](https://github.com/bluz71/vim-nightfly-colors) - my preferred colorscheme, use a different one if you want to
+- [Tokyonight colorscheme](https://github.com/folke/tokyonight.nvim) - my preferred colorscheme, use a different one if you want to (note that the tokyonight repo contains configs for alacritty and tmux, so I use those too)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - a file explorer plugin, I prefer it over the default netrw plugin
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) - better icons for filetypes
 - [dressing](https://github.com/stevearc/dressing.nvim) - modifies some UI elements for example, adding/renaming files in nvim-tree or inputs for LSP renaming

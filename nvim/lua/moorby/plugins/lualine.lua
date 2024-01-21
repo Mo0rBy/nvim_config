@@ -5,7 +5,7 @@ return {
   config = function()
     require("lualine").setup{
       options = {
-        theme = require("lualine.themes.nightfly"),
+        theme = "tokyonight-night",
         globalstatus = true
       },
     }
