@@ -27,3 +27,6 @@ zsh/.zsh_history
 # ignore lazy-lock
 nvim/lazy-lock.json
 
+# unignore k9s config
+!k9s/
+!k9s/**
