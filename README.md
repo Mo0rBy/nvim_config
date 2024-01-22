@@ -21,6 +21,8 @@ This repository contains files relevant to my development environment and other 
     + [Syntax highlighting](#syntax-highlighting)
     + [Auto-completion features](#auto-completion-features)
     + [Git](#git)
+- [K9s](#k9s)
+  * [Setup](#setup-3)
 
 <!-- tocstop -->
 
@@ -142,3 +144,14 @@ This is a list of all the plugins I use in my Neovim config.
 
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - adds git integration to buffers so you can see git changes + git blame etc
 
+## K9s
+
+As a DevOps Engineer / SRE, I interact with Kubernetes clusters multiple times a day, every day.
+For this reason, I use the K9s terminal GUI as a great way to understand whatever is happening in a K8s cluster at any given time.
+It's a very intuative UI with sensible keyboard shortcuts and you can add configuration options in a file just like alacritty and tmux!
+
+### Setup
+
+This one is pretty easy!
+Just install K9s using your preferred method and it will automatically be setup to read it's config file inside the `$XDG_CONFIG_HOME/k9s` directory.
+It really is as simple as that!
