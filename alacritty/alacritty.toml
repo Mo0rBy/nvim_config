@@ -1,6 +1,9 @@
 # Disable config changes being applied immeadiatley
 live_config_reload = false
 
+[env]
+term = "xterm-256color"
+
 # Font configuration
 [font]
 size = 15
