@@ -1,5 +1,5 @@
 foreground: &foreground "#c0caf5"
-background: &background "#24283b"
+background: &background "#1a1b26"
 current_line: &current_line "#8c6c3e"
 selection: &selection "#364a82"
 comment: &comment "#565f89"
@@ -87,7 +87,7 @@ k9s:
       bgColor: default
       cursorFgColor: *black
       cursorBgColor: *background
-      markColor: darkgoldenrod
+      markColor: *orange
       # Header row styles.
       header:
         fgColor: *foreground
