@@ -5,16 +5,18 @@ This repository contains files relevant to my development environment and other 
 <!-- toc -->
 
 - [Alacritty](#alacritty)
-  * [Setup](#setup)
   * [Relevant files](#relevant-files)
+  * [Setup](#setup)
 - [ZSH](#zsh)
+  * [Relevant files](#relevant-files-1)
   * [Setup](#setup-1)
 - [Tmux](#tmux)
+  * [Relevant files](#relevant-files-2)
   * [Setup](#setup-2)
-  * [Relevant files](#relevant-files-1)
+  * [Theming options](#theming-options)
   * [Plugins](#plugins)
 - [Neovim](#neovim)
-  * [Relevant files](#relevant-files-2)
+  * [Relevant files](#relevant-files-3)
   * [Plugins](#plugins-1)
     + [Quality of life](#quality-of-life)
     + [Colourscheme/themeing/UI modifications](#colourschemethemeingui-modifications)
@@ -31,6 +33,10 @@ This repository contains files relevant to my development environment and other 
 I use [Alacritty](https://github.com/alacritty/alacritty) for my terminal needs. 
 It's super fast and I love that all it's configuration and settings are set in a toml file
 
+### Relevant files
+
+- [alacritty](alacritty)
+
 ### Setup
 
 Be aware that I had issues on my Linux Ubuntu machine.
@@ -39,13 +45,13 @@ This meant that my `alacritty.toml` config file was not used as this older versi
 
 To ensure you have the latest version installed and that the `toml` config file works, follow [these](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) instructions on the Alacritty Github page.
 
-### Relevant files
-
-- [alacritty](alacritty)
-
 ## ZSH
 
 I use ZSH as my shell of choice as it has really nice customization options using oh-my-zsh and I love the autocomplete features it comes with.
+
+### Relevant files
+
+- [zsh](zsh/)
 
 ### Setup
 
@@ -66,6 +72,10 @@ Next, symlink the `.zshenv` file: (this command assumes that this repo is cloned
 
 I use my terminal ALL the time. [Tmux](https://github.com/tmux/tmux) helps me to increase my productivity when in my terminal. The primary utility of Tmux is that it allows me to quickly switch between Neovim and a CLI terminal window.
 
+### Relevant files
+
+- [tmux](tmux)
+
 ### Setup
 
 Install tmux using your preferred method.
@@ -76,9 +86,13 @@ If the default `Ctrl+b` doesn't work, then try `Ctrl+a`, this is what I have it 
 
 Once the `tmux.conf` has been loaded for the first time, then you can use `Ctrl+a`, `r` to refresh the tmux config.
 
-### Relevant files
+### Theming options
 
-- [tmux](tmux)
+Tmux theming and colour configuration is all done within the `tmux.conf` file along with everything else.
+I struggled a bit to find information on the different styling options and what they do and then I found [this video](https://www.youtube.com/watch?v=9e8850-1pg8) which made it quite easy to understand.
+Another good thing to look at would be the [tmux man pages](https://man7.org/linux/man-pages/man1/tmux.1.html).
+In my opinion, the tmux man pages aren't really clear in what the option is modifying, it would be useful to have some visual examples like images or videos, hence why I have added the link to the video above that shows what some of the option do really clearly.
+I highly recommend playing with the options inside your `tmux.conf` file, just to get a feel for what the config option is doing and how it looks in your tmux.
 
 ### Plugins
 
@@ -114,7 +128,7 @@ This is a list of all the plugins I use in my Neovim config.
 
 #### Colourscheme/themeing/UI modifications
 
-- [Tokyonight colorscheme](https://github.com/folke/tokyonight.nvim) - my preferred colorscheme, use a different one if you want to (note that the tokyonight repo contains configs for alacritty and tmux, so I use those too)
+- [Monokai/Molokai colorscheme](https://github.com/tanvirtin/monokai.nvim) - my preferred colorscheme, use a different one if you want to (note that the tokyonight repo contains configs for alacritty and tmux, so I use those too)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - a file explorer plugin, I prefer it over the default netrw plugin
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) - better icons for filetypes
 - [dressing](https://github.com/stevearc/dressing.nvim) - modifies some UI elements for example, adding/renaming files in nvim-tree or inputs for LSP renaming

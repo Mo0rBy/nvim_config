@@ -9,6 +9,7 @@
 !.pre-commit-config.yaml
 
 # unignore alacritty config
+!alacritty/
 !alacritty/alacritty.toml
 
 # unignore zsh configs
