@@ -24,46 +24,30 @@ style = "Regular Italic"
 family = "MesloLGS NF"
 style = "Regular"
 
-# TokyoNight Alacritty Colors
-# Default colors
+# Monokia Colors
 [colors.primary]
-background = '#1C1C1C'
-foreground = '#c0caf5'
+background = "#262626"
+foreground = "#F8F8F2"
 
-#[colors.cursor]
-#cursor = '#c0caf5'
-#text = '#1a1b26'
-
-# Normal colors
 [colors.normal]
-black = '#15161e'
-red = '#f7768e'
-green = '#9ece6a'
-yellow = '#e0af68'
-blue = '#7aa2f7'
-magenta = '#bb9af7'
-cyan = '#7dcfff'
-white = '#a9b1d6'
+black = "#272822"
+red = "#F92672"
+green = "#A6E22E"
+yellow = "#F4BF75"
+blue = "#66D9EF"
+magenta = "#AE81FF"
+cyan = "#A1EFE4"
+white = "#F8F8F2"
 
-# Bright colors
 [colors.bright]
-black = '#414868'
-red = '#f7768e'
-green = '#9ece6a'
-yellow = '#e0af68'
-blue = '#7aa2f7'
-magenta = '#bb9af7'
-cyan = '#7dcfff'
-white = '#c0caf5'
-
-# Indexed Colors
-[[colors.indexed_colors]]
-index = 16
-color = '#ff9e64'
-
-[[colors.indexed_colors]]
-index = 17
-color = '#db4b4b'
+black = "#75715E"
+red = "#F92672"
+green = "#A6E22E"
+yellow = "#F4BF75"
+blue = "#66D9EF"
+magenta = "#AE81FF"
+cyan = "#A1EFE4"
+white = "#F9F8F5"
 
 
 [window.padding]
