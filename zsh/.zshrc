@@ -125,3 +125,6 @@ bindkey "^[[1;5C" end-of-line
 # MacOS keybinds are the same, however, "Command + LeftArrow" & "Option + LeftArrow" result in the same hex code.
 # Therefore, cannot use "beginning-of-line" & "end-of-line" correctly.
 
+# Additional CLI tools required setup
+# Enable fzf (https://github.com/junegunn/fzf)
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
