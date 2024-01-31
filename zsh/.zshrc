@@ -128,3 +128,6 @@ bindkey "^[[1;5C" end-of-line
 # Additional CLI tools required setup
 # Enable fzf (https://github.com/junegunn/fzf)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Enable zoxide (https://github.com/ajeetdsouza/zoxide)
+eval "$(zoxide init zsh)"
