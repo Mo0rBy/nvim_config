@@ -8,6 +8,11 @@ return {
         theme = "molokai",
         globalstatus = true
       },
+      sections = {
+        lualine_c = {
+          "buffers"
+        }
+      }
     }
   end
 }
