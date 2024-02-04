@@ -25,12 +25,13 @@ return {
         }
       }
     })
-    
+
     -- set basic keymaps for telescope
     local builtin = require('telescope.builtin')
-    vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
-    vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
-    vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
-    vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
+    vim.keymap.set('n', '<leader>ff', builtin.find_files, {desc = "Find files with Telescope"})
+    vim.keymap.set('n', '<leader>fg', builtin.live_grep, {desc = "Grep in all files with Telescope + Ripgrep"})
+    vim.keymap.set('n', '<leader>fb', builtin.buffers, {desc = "Find in all opened buffers"})
+    vim.keymap.set('n', '<leader>fh', builtin.help_tags, {desc = "Find help tags"})
+    vim.keymap.set('n', '<leader>fk', builtin.keymaps, {desc = "Find keymaps with Telescope"})
   end
 }
