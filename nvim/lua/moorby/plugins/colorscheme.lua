@@ -4,6 +4,10 @@ return {
   priority = 1000,
   opts = {},
   config = function()
-    require("monokai").setup({})
+    require("monokai").setup({
+      palette = {
+        base2 = "#262626" -- change background colour to same used in Alacritty config
+      }
+    })
   end
 }
