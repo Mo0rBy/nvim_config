@@ -122,3 +122,6 @@ bindkey "^[[1;3D" backward-word
 bindkey "^[[1;3C" forward-word
 bindkey "^[[1;5D" beginning-of-line
 bindkey "^[[1;5C" end-of-line
+# MacOS keybinds are the same, however, "Command + LeftArrow" & "Option + LeftArrow" result in the same hex code.
+# Therefore, cannot use "beginning-of-line" & "end-of-line" correctly.
+
