@@ -12,9 +12,9 @@ return {
 
     -- configure nvim-tree
     nvimtree.setup({
-      hijack_cursor = true, 
+      hijack_cursor = true,
       view = {
-        width = 40,
+        width = {},
         number = true,
         relativenumber = true,
         cursorline = true,
@@ -25,13 +25,13 @@ return {
         },
         highlight_git = true,
         icons = {
-        git_placement = "after", 
+        git_placement = "after",
           glyphs = {
             folder = {
               arrow_closed = "",
               arrow_open = "",
             }
-          } 
+          }
         }
       },
       filters = {
