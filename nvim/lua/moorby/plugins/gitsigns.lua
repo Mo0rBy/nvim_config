@@ -6,7 +6,7 @@ return {
 
     -- set keymap to toggle git blame
     -- if git blame is left on, it moves LSP notifications further to the right
-    keymap.set("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>")
+    keymap.set("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>", {desc = "Toggle git blame (shown for current line)"})
 
     require("gitsigns").setup{}
   end
