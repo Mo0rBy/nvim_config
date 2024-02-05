@@ -111,6 +111,7 @@ My `.zshrc` file contains some aliases for these CLI tools, so you must make sur
 - [zoxide](https://github.com/ajeetdsouza/zoxide) (a better `cd` command)
 - [fzf](https://github.com/junegunn/fzf) (a really nice fuzzyfinder tool)
 - [ripgrep](https://github.com/BurntSushi/ripgrep) (a better `grep` command)
+- [sdkman](https://sdkman.io/) (helps to install and organize SDK's (JDK's, Maven, Gradle, etc))
 
 ## Neovim
 

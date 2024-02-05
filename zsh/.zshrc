@@ -141,4 +141,5 @@ alias ll="eza -al --group-directories-first" # lists everything with directories
 alias ls="eza -alF --color=always --sort=size | grep -v /" # lists only files sorted by size
 alias lt="eza -al --sort=modified" # lists everything sorted by time updated
 
-
+# Activate sdkman
+source "$HOME/.sdkman/bin/sdkman-init.sh"
