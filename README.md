@@ -112,6 +112,7 @@ My `.zshrc` file contains some aliases for these CLI tools, so you must make sur
 - [fzf](https://github.com/junegunn/fzf) (a really nice fuzzyfinder tool)
 - [ripgrep](https://github.com/BurntSushi/ripgrep) (a better `grep` command)
 - [sdkman](https://sdkman.io/) (helps to install and organize SDK's (JDK's, Maven, Gradle, etc))
+- [pyenv](https://github.com/pyenv/pyenv) (tool that helps to manage multiple python versions)
 
 ## Neovim
 
