@@ -18,7 +18,6 @@ return {
       "docker_compose_language_service",
       "eslint",
       "flux_lsp",
-      "golangci_lint_ls",
       "gopls",
       "groovyls",
       "html",
