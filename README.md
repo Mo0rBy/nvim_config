@@ -6,22 +6,18 @@ This repository contains files relevant to my development environment and other 
 
 - [Cross-application colourscheme](#cross-application-colourscheme)
 - [Alacritty](#alacritty)
-  * [Relevant files](#relevant-files)
   * [Setup](#setup)
 - [ZSH](#zsh)
-  * [Relevant files](#relevant-files-1)
   * [Setup](#setup-1)
 - [Tmux](#tmux)
-  * [Relevant files](#relevant-files-2)
   * [Setup](#setup-2)
   * [Theming options](#theming-options)
   * [Plugins](#plugins)
 - [Extra CLI Tools](#extra-cli-tools)
 - [Neovim](#neovim)
-  * [Relevant files](#relevant-files-3)
   * [Plugins](#plugins-1)
     + [Quality of life](#quality-of-life)
-    + [Colourscheme/themeing/UI modifications](#colourschemethemeingui-modifications)
+    + [UI modifications](#ui-modifications)
     + [Syntax highlighting](#syntax-highlighting)
     + [Auto-completion features](#auto-completion-features)
     + [Git](#git)
@@ -41,10 +37,6 @@ This means that I don't have much trouble in getting it to work across all the d
 I use [Alacritty](https://github.com/alacritty/alacritty) for my terminal needs. 
 It's super fast and I love that all it's configuration and settings are set in a toml file
 
-### Relevant files
-
-- [alacritty](alacritty)
-
 ### Setup
 
 Be aware that I had issues on my Linux Ubuntu machine.
@@ -52,13 +44,10 @@ When attempting to install alacritty with `apt install alacritty`, version 0.11.
 This meant that my `alacritty.toml` config file was not used as this older version used a `yaml` file for it's config.
 
 To ensure you have the latest version installed and that the `toml` config file works, follow [these](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) instructions on the Alacritty Github page or use HomeBrew on MacOS or Linux.
+
 ## ZSH
 
 I use ZSH as my shell of choice as it has really nice customization options using oh-my-zsh and I love the autocomplete features it comes with.
-
-### Relevant files
-
-- [zsh](zsh/)
 
 ### Setup
 
@@ -78,10 +67,6 @@ Next, symlink the `.zshenv` file: (this command assumes that this repo is cloned
 ## Tmux
 
 I use my terminal ALL the time. [Tmux](https://github.com/tmux/tmux) helps me to increase my productivity when in my terminal. The primary utility of Tmux is that it allows me to quickly switch between Neovim and a CLI terminal window.
-
-### Relevant files
-
-- [tmux](tmux)
 
 ### Setup
 
@@ -124,10 +109,6 @@ My `.zshrc` file contains some aliases for these CLI tools, so you must make sur
 
 Neovim is an evolution of vi and vim. You can install many different plugins to make Neovim look and feel exactly as you want. I use it as my main code editor.
 
-### Relevant files
-
-- [nvim](nvim)
-
 ### Plugins
 
 This is a list of all the plugins I use in my Neovim config.
@@ -147,9 +128,8 @@ This is a list of all the plugins I use in my Neovim config.
 - [vim-surround](https://github.com/tpope/vim-surround) - adds useful keymaps to modify textobject surroundings
 - [cutlass](https://github.com/gbprod/cutlass.nvim) - modifies delete keys to use the blackhole register to make copy/paste/delete workflows easier
 
-#### Colourscheme/themeing/UI modifications
+#### UI modifications
 
-- [Monokai/Molokai colorscheme](https://github.com/tanvirtin/monokai.nvim) - my preferred colorscheme, use a different one if you want to (note that the tokyonight repo contains configs for alacritty and tmux, so I use those too)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - a file explorer plugin, I prefer it over the default netrw plugin
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) - better icons for filetypes
 - [dressing](https://github.com/stevearc/dressing.nvim) - modifies some UI elements for example, adding/renaming files in nvim-tree or inputs for LSP renaming
