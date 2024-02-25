@@ -4,9 +4,6 @@ return {
   lazy = false,
   config = function()
     require("lualine").setup{
-      options = {
-        theme = "molokai",
-      },
       sections = {
         lualine_c = {
           "buffers"
