@@ -6,7 +6,7 @@ k9s:
   readOnly: false
   noExitOnCtrlC: false
   ui:
-    skin: monokai
+    skin: catppuccin-mocha
     enableMouse: false
     headless: false
     logoless: false
