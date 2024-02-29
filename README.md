@@ -28,8 +28,8 @@ This repository contains files relevant to my development environment and other 
 
 ## Cross-application colourscheme
 
-I use the [Catppuccin Mocha](https://github.com/catppuccin) colourscheme.
-I've experimented with a few different colourschemes and for now I have chosen Catppuccin because it is very well supported by many different applications.
+I use the [Tokyonight Moon](https://github.com/folke/tokyonight.nvim) colourscheme.
+I've experimented with a few different colourschemes and for now I have chosen Tokyonight because it is very well supported by many different applications.
 This means that I don't have much trouble in getting it to work across all the different tools that I use and it makes my life much easier.
 
 ## Alacritty
