@@ -4,6 +4,7 @@ return {
   lazy = false,
   config = function()
     require("lualine").setup{
+      theme = "tokyonight",
       sections = {
         lualine_c = {
           "buffers"
