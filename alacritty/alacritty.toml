@@ -1,8 +1,11 @@
-# Disable config changes being applied immeadiatley
-live_config_reload = false
+live_config_reload = true
 
 [env]
 term = "xterm-256color"
+
+[window.padding]
+x = 10
+y = 10
 
 # Font configuration
 [font]
@@ -24,84 +27,43 @@ style = "Regular Italic"
 family = "MesloLGS NF"
 style = "Regular"
 
-# Catpuccin Mocha colours
+# TokyoNight Alacritty Colors
+# Default colors
 [colors.primary]
-background = "#1E1E2E"
-foreground = "#CDD6F4"
-dim_foreground = "#CDD6F4"
-bright_foreground = "#CDD6F4"
+background = '#222436'
+foreground = '#c8d3f5'
 
-[colors.cursor]
-text = "#1E1E2E"
-cursor = "#F5E0DC"
+#[colors.cursor]
+#cursor = '#c8d3f5'
+#text = '#222436'
 
-[colors.vi_mode_cursor]
-text = "#1E1E2E"
-cursor = "#B4BEFE"
-
-[colors.search.matches]
-foreground = "#1E1E2E"
-background = "#A6ADC8"
-
-[colors.search.focused_match]
-foreground = "#1E1E2E"
-background = "#A6E3A1"
-
-[colors.footer_bar]
-foreground = "#1E1E2E"
-background = "#A6ADC8"
-
-[colors.hints.start]
-foreground = "#1E1E2E"
-background = "#F9E2AF"
-
-[colors.hints.end]
-foreground = "#1E1E2E"
-background = "#A6ADC8"
-
-[colors.selection]
-text = "#1E1E2E"
-background = "#F5E0DC"
-
+# Normal colors
 [colors.normal]
-black = "#45475A"
-red = "#F38BA8"
-green = "#A6E3A1"
-yellow = "#F9E2AF"
-blue = "#89B4FA"
-magenta = "#F5C2E7"
-cyan = "#94E2D5"
-white = "#BAC2DE"
+black = '#1b1d2b'
+red = '#ff757f'
+green = '#c3e88d'
+yellow = '#ffc777'
+blue = '#82aaff'
+magenta = '#c099ff'
+cyan = '#86e1fc'
+white = '#828bb8'
 
+# Bright colors
 [colors.bright]
-black = "#585B70"
-red = "#F38BA8"
-green = "#A6E3A1"
-yellow = "#F9E2AF"
-blue = "#89B4FA"
-magenta = "#F5C2E7"
-cyan = "#94E2D5"
-white = "#A6ADC8"
+black = '#444a73'
+red = '#ff757f'
+green = '#c3e88d'
+yellow = '#ffc777'
+blue = '#82aaff'
+magenta = '#c099ff'
+cyan = '#86e1fc'
+white = '#c8d3f5'
 
-[colors.dim]
-black = "#45475A"
-red = "#F38BA8"
-green = "#A6E3A1"
-yellow = "#F9E2AF"
-blue = "#89B4FA"
-magenta = "#F5C2E7"
-cyan = "#94E2D5"
-white = "#BAC2DE"
-
+# Indexed Colors
 [[colors.indexed_colors]]
 index = 16
-color = "#FAB387"
+color = '#ff966c'
 
 [[colors.indexed_colors]]
 index = 17
-color = "#F5E0DC"
-
-
-[window.padding]
-x = 10
-y = 10
+color = '#c53b53'
