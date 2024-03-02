@@ -31,7 +31,6 @@ return {
     local opts = require("indent-rainbowline").make_opts({}, {
       color_transparency = 0.15,
     })
-
     opts.scope = {
       highlight = highlight
     }
