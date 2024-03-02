@@ -124,8 +124,8 @@ This is a list of all the plugins I use in my Neovim config.
 - [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank) - this plugin highlights what was just yanked (copied)
 - [vim-maximizer](https://github.com/szw/vim-maximizer) - used to maximize (and return to normal) a split
 - [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim) - makes it easier to see indentation (my configuration uses the `scope` too), this has dependencies for:
-  - [indent-rainbowline](https://github.com/TheGLander/indent-rainbowline.nvim) - adds VSCode style rainbow indentation indiciators
-  - [rainbow-delimiters](https://github.com/HiPhish/rainbow-delimiters.nvim) - adds rainbow bracket delimiters ({} and ())
+    - [indent-rainbowline](https://github.com/TheGLander/indent-rainbowline.nvim) - adds VSCode style rainbow indentation indiciators
+    - [rainbow-delimiters](https://github.com/HiPhish/rainbow-delimiters.nvim) - adds rainbow bracket delimiters ({} and ())
 - [comment](https://github.com/numToStr/Comment.nvim) - used for better commenting functionality, this has dependencies for:
     - [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - used for better commenting in files with multiple comment formats
 - [vim-surround](https://github.com/tpope/vim-surround) - adds useful keymaps to modify textobject surroundings
