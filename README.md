@@ -135,6 +135,7 @@ This is a list of all the plugins I use in my Neovim config.
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) - better icons for filetypes
 - [dressing](https://github.com/stevearc/dressing.nvim) - modifies some UI elements for example, adding/renaming files in nvim-tree or inputs for LSP renaming
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - adds a status line
+- [rainbow-indent](https://github.com/HiPhish/rainbow-delimiters.nvim) - adds rainbow brackets ({}, ()) to syntax highlighting
 
 #### Syntax highlighting
 
