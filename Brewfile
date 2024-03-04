@@ -4,10 +4,13 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "homebrew/linux-fonts"
 tap "homebrew/services"
 tap "int128/kubelogin"
 tap "jesseduffield/lazygit"
 tap "warrensbox/tap"
+# Securely store and access AWS credentials in development environments
+brew "aws-vault"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Official Amazon AWS command-line interface
@@ -46,6 +49,8 @@ brew "k9s"
 brew "kind"
 # Template-free customization of Kubernetes YAML manifests
 brew "kustomize"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Run a Kubernetes cluster locally
 brew "minikube"
 # Fast, highly customisable system info script
@@ -68,6 +73,8 @@ brew "ranger"
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Tool to build, change, and version infrastructure
+brew "terraform", link: false
 # Terraform version manager inspired by rbenv
 brew "tfenv"
 # Linter for Terraform files
@@ -90,8 +97,8 @@ brew "zoxide"
 brew "zsh"
 # Packer
 brew "hashicorp/tap/packer"
-# Terraform
-brew "hashicorp/tap/terraform", link: false
+# Developer targeted fonts with a high number of glyphs
+brew "homebrew/linux-fonts/font-cousine-nerd-font"
 # A kubectl plugin for Kubernetes OpenID Connect authentication
 brew "int128/kubelogin/kubelogin"
 # A simple terminal UI for git commands, written in Go
