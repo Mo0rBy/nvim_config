@@ -26,12 +26,15 @@ return {
       }
     })
 
-    -- set basic keymaps for telescope
+    -- Setup keymaps
+    local keymap = vim.keymap
     local builtin = require('telescope.builtin')
-    vim.keymap.set('n', '<leader>ff', builtin.find_files, {desc = "Find files with Telescope"})
-    vim.keymap.set('n', '<leader>fg', builtin.live_grep, {desc = "Grep in all files with Telescope + Ripgrep"})
-    vim.keymap.set('n', '<leader>fb', builtin.buffers, {desc = "Find in all opened buffers"})
-    vim.keymap.set('n', '<leader>fh', builtin.help_tags, {desc = "Find help tags"})
-    vim.keymap.set('n', '<leader>fk', builtin.keymaps, {desc = "Find keymaps with Telescope"})
+
+    keymap.set('n', '<leader>ff', builtin.find_files, {desc = "Find files with Telescope"})
+    keymap.set('n', '<leader>fg', builtin.live_grep, {desc = "Grep in all files with Telescope + Ripgrep"})
+    keymap.set('n', '<leader>fb', builtin.buffers, {desc = "Find in all opened buffers"})
+    keymap.set('n', '<leader>fh', builtin.help_tags, {desc = "Find help tags"})
+    keymap.set('n', '<leader>fk', builtin.keymaps, {desc = "Find keymaps with Telescope"})
+    keymap.set("n", "<leader>gb", ":Telescope git_branches<CR>", {desc = "List and select git branches"})
   end
 }
