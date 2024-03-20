@@ -161,7 +161,8 @@ This is a list of all the plugins I use in my Neovim config.
 #### Git
 
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - adds git integration to buffers so you can see git changes + git blame etc
-- [lazygit](https://github.com/kdheepak/lazygit.nvim) - this plugin adds lazygit integration into neovim so that it can be called with a keymap
+- [neogit](https://github.com/NeogitOrg/neogit) - adds neovim integration for git workflows, e.g. viewing diffs and committing changes, viewing git log/reflog, interactive rebasing, etc (same sort of thing as lazygit, but has a more intuative UI design and better configurability + keymapping)
+- [diffview](https://github.com/sindrets/diffview.nvim) - adds a nice git diff view (like VSCode)
 
 ## K9s
 
