@@ -20,7 +20,9 @@ zsh/.zcompdump*
 zsh/.zsh_history
 
 # unignore tmux config
-!tmux/tmux.conf
+!tmux/
+# ignort the tmux plugins directory
+tmux/plugins/
 
 # unignore nvim config
 !nvim/
