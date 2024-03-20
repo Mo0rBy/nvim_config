@@ -21,7 +21,6 @@ return {
       },
       disable_line_numbers = true,
       kind = "split",
-
     })
 
     -- Set keymaps
