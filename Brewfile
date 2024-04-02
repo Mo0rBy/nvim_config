@@ -49,8 +49,6 @@ brew "k9s"
 brew "kind"
 # Template-free customization of Kubernetes YAML manifests
 brew "kustomize"
-# Simple terminal UI for git commands
-brew "lazygit"
 # Run a Kubernetes cluster locally
 brew "minikube"
 # Fast, highly customisable system info script
@@ -61,6 +59,8 @@ brew "neovim"
 brew "node"
 # SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
 brew "openvpn", restart_service: true
+# Tool for managing OCI containers and pods
+brew "podman"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Python version management
@@ -75,6 +75,8 @@ brew "ripgrep"
 brew "ruby"
 # Tool to build, change, and version infrastructure
 brew "terraform", link: false
+# Create beautiful image of your source code
+brew "silicon"
 # Terraform version manager inspired by rbenv
 brew "tfenv"
 # Linter for Terraform files
@@ -129,6 +131,8 @@ cask "mysqlworkbench"
 cask "obsidian"
 # Administration and development platform for PostgreSQL
 cask "pgadmin4"
+# Browse, manage, inspect containers and images
+cask "podman-desktop"
 # Collaboration platform for API development
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
