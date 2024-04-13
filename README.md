@@ -139,6 +139,7 @@ This is a list of all the plugins I use in my Neovim config.
 - [dressing](https://github.com/stevearc/dressing.nvim) - modifies some UI elements for example, adding/renaming files in nvim-tree or inputs for LSP renaming
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - adds a status line
 - [nvim-notify](https://github.com/rcarriga/nvim-notify) - adds a different theme to notifications
+- [alpha](https://github.com/goolord/alpha-nvim) - adds a customizable greeting pane when you start neovim
 
 #### Syntax highlighting
 
