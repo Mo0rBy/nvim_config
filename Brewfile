@@ -132,6 +132,8 @@ cask "hoppscotch"
 cask "mongodb-compass"
 # Visual tool to design, develop and administer MySQL servers
 cask "mysqlworkbench"
+# App to write, plan, collaborate, and get organised
+cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Administration and development platform for PostgreSQL
