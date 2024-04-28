@@ -2,9 +2,10 @@ local opt = vim.opt
 
 opt.termguicolors = true
 
--- line numbers
+-- scrolling & line numbers
 opt.relativenumber = true
 opt.number = true
+opt.scrolloff = 10
 
 -- tabs & indentation
 opt.tabstop = 4
