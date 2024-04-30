@@ -94,6 +94,8 @@ brew "tree"
 brew "trivy"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# Internet file retriever
+brew "wget"
 # Access X11 clipboards from the command-line
 brew "xclip"
 # Shell extension to navigate your filesystem faster
