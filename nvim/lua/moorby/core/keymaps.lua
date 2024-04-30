@@ -21,3 +21,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") -- go to previous tab
 -- re-select visual block selection when indenting
 keymap.set("v", ">", ">gv")
 keymap.set("v", "<", "<gv")
+
+-- change path to "Second Brain" easily
+-- keymap.set("n", "<leader>sb", ":cd /Users/wmoorby/Obsidian_vaults/second-brain<CR>", { desc = "Change directory to 'Second Brain' Obsidian vault" })
+
