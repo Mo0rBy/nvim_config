@@ -21,6 +21,7 @@ This repository contains files relevant to my development environment and other 
     + [Syntax highlighting](#syntax-highlighting)
     + [Auto-completion features](#auto-completion-features)
     + [Git](#git)
+    + [Note Taking](#note-taking)
 - [K9s](#k9s)
   * [Setup](#setup-3)
 
@@ -167,6 +168,9 @@ This is a list of all the plugins I use in my Neovim config.
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - adds git integration to buffers so you can see git changes + git blame etc
 - [neogit](https://github.com/NeogitOrg/neogit) - adds neovim integration for git workflows, e.g. viewing diffs and committing changes, viewing git log/reflog, interactive rebasing, etc (same sort of thing as lazygit, but has a more intuative UI design and better configurability + keymapping)
 - [diffview](https://github.com/sindrets/diffview.nvim) - adds a nice git diff view (like VSCode)
+
+#### Note Taking
+- [obsidian](https://github.com/epwalsh/obsidian.nvim) - adds neovim integration with [Obsidian app](https://obsidian.md/)
 
 ## K9s
 
