@@ -15,6 +15,6 @@ return {
 
     -- Setup keymaps
     local keymap = vim.keymap
-    keymap.set("n", "<leader>gfb", ":ToggleBlame<CR>", {desc = "Toggle git blame (entire file)"})
+    keymap.set("n", "<leader>gfb", ":BlameToggle<CR>", {desc = "Toggle git blame (entire file)"})
   end
 }
