@@ -62,6 +62,8 @@ brew "neovim"
 brew "node"
 # SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
 brew "openvpn", restart_service: true
+# Paste PNG into files
+brew "pngpaste"
 # Tool for managing OCI containers and pods
 brew "podman"
 # Framework for managing multi-language pre-commit hooks
