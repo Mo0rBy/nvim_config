@@ -26,7 +26,7 @@ return {
       dashboard.button("SPC fg", "  > Find word", ":Telescope live_grep<CR>"),
       dashboard.button("SPC fr", "  > Recent"   , ":Telescope oldfiles<CR>"),
       dashboard.button("SPC wr", "󰁯  > Restore Session For Current Directory", ":SessionRestore<CR>"),
-      dashboard.button("s", "  > Settings" , ":e $XDG_CONFIG_HOME/nvim<CR>"),
+      dashboard.button("c", "  > Configuration" , ":e $XDG_CONFIG_HOME/nvim<CR>"),
       dashboard.button("q", "  > Quit NVIM", ":qa<CR>"),
     }
 
