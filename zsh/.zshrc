@@ -131,3 +131,6 @@ bindkey "^[[1;5C" end-of-line
 
 # Enable zoxide (https://github.com/ajeetdsouza/zoxide)
 eval "$(zoxide init zsh)"
+
+# Alias bat to cat
+alias cat="bat"
