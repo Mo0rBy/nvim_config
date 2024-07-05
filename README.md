@@ -27,3 +27,4 @@ This neovim config is used by myself on a daily basis. This config uses lazy.nvi
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) - a fuzzy finder plugin making it easier to find open buffers as well as files and text across directories, this has dependencies for:
     - [plenary](https://github.com/nvim-lua/plenary.nvim) - adds extra lua functions
     - [ripgrep](https://github.com/BurntSushi/ripgrep) - a tool that can recursively search across directories for a regex pattern
+- [vim-illuminate](https://github.com/RRethy/vim-illuminate) - this plugin will highlight other instances of a word that the cursor is on
