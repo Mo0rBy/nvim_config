@@ -11,8 +11,35 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+local opts = {
+	defaults = {
+		lazy = true,
+	},
+	install = {
+		colorscheme = { "monokai" }
+	},
+	rtp = {
+        disabled_plugins = {
+            "gzip",
+            "matchit",
+            "matchparen",
+            "netrw",
+            "netrwPlugin",
+            "tarPlugin",
+            "tohtml",
+            "tutor",
+            "zipPlugin",
+        }
+	},
+	change_detection = {
+		enabled = true,
+		notify = true,
+	},
+}
+
 require("lazy").setup(
     {
-        {import = "moorby.plugins"},
-    }
+        {import = "moorby.plugins"}
+    },
+    opts
 )
