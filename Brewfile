@@ -1,7 +1,6 @@
 tap "fluxcd/tap"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "homebrew/linux-fonts"
 tap "homebrew/services"
 tap "int128/kubelogin"
@@ -60,8 +59,6 @@ brew "neofetch"
 brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
-# SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
-brew "openvpn", restart_service: true
 # Paste PNG into files
 brew "pngpaste"
 # Tool for managing OCI containers and pods
@@ -78,10 +75,10 @@ brew "ranger"
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
-# Tool to build, change, and version infrastructure
-brew "terraform", link: false
 # Create beautiful image of your source code
 brew "silicon"
+# Tool to build, change, and version infrastructure
+brew "terraform", link: false
 # Terraform version manager inspired by rbenv
 brew "tfenv"
 # Linter for Terraform files
@@ -106,9 +103,7 @@ brew "zoxide"
 brew "zsh"
 # Packer
 brew "hashicorp/tap/packer"
-# Terraform
-brew "hashicorp/tap/terraform", link: false
-# Developer targeted fonts with a high number of glyphs
+# Cousine nerd font (cousine) font
 brew "homebrew/linux-fonts/font-cousine-nerd-font", link: false
 # A kubectl plugin for Kubernetes OpenID Connect authentication
 brew "int128/kubelogin/kubelogin"
@@ -116,6 +111,8 @@ brew "int128/kubelogin/kubelogin"
 brew "jesseduffield/lazygit/lazygit"
 # Quantum Mechanical Keyboard (QMK) Firmware
 brew "qmk/qmk/qmk"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
 # GPU-accelerated terminal emulator
@@ -128,10 +125,10 @@ cask "bruno"
 cask "discord"
 # Online diagram software
 cask "drawio"
-# Developer targeted fonts with a high number of glyphs
 cask "font-commit-mono-nerd-font"
-# Developer targeted fonts with a high number of glyphs
 cask "font-cousine-nerd-font"
+# Web browser
+cask "google-chrome"
 # Open source API development ecosystem
 cask "hoppscotch"
 # Interactive tool for analyzing MongoDB data
@@ -142,6 +139,8 @@ cask "mysqlworkbench"
 cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Client program for the OpenVPN Access Server
+cask "openvpn-connect"
 # Administration and development platform for PostgreSQL
 cask "pgadmin4"
 # Browse, manage, inspect containers and images
