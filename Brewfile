@@ -1,13 +1,14 @@
 tap "fluxcd/tap"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "homebrew/linux-fonts"
 tap "homebrew/services"
 tap "int128/kubelogin"
 tap "jesseduffield/lazygit"
+tap "osx-cross/arm"
+tap "osx-cross/avr"
+tap "qmk/qmk"
 tap "warrensbox/tap"
 # Securely store and access AWS credentials in development environments
 brew "aws-vault"
@@ -99,12 +100,16 @@ brew "zoxide"
 brew "zsh"
 # Packer
 brew "hashicorp/tap/packer"
+# Terraform
+brew "hashicorp/tap/terraform", link: false
 # Developer targeted fonts with a high number of glyphs
-brew "homebrew/linux-fonts/font-cousine-nerd-font"
+brew "homebrew/linux-fonts/font-cousine-nerd-font", link: false
 # A kubectl plugin for Kubernetes OpenID Connect authentication
 brew "int128/kubelogin/kubelogin"
 # A simple terminal UI for git commands, written in Go
 brew "jesseduffield/lazygit/lazygit"
+# Quantum Mechanical Keyboard (QMK) Firmware
+brew "qmk/qmk/qmk"
 # Command-line interface for 1Password
 cask "1password-cli"
 # GPU-accelerated terminal emulator
@@ -135,6 +140,8 @@ cask "pgadmin4"
 cask "podman-desktop"
 # Collaboration platform for API development
 cask "postman"
+# Toolbox companion for QMK Firmware
+cask "qmk-toolbox"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Team communication and collaboration software
