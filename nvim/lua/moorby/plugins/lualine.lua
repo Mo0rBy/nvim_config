@@ -6,7 +6,6 @@ return {
     require("lualine").setup{
       options = {
         theme = "molokai",
-        globalstatus = true
       },
       sections = {
         lualine_c = {
