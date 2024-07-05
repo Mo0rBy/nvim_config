@@ -9,8 +9,7 @@ return {
 
     -- Set plugin configuration options
     vim.notify.setup({
-      stages = "static",
-      top_down = false,
+      render = "compact",
     })
   end
 }
