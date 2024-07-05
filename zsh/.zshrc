@@ -143,3 +143,6 @@ alias lt="eza -al --sort=modified" # lists everything sorted by time updated
 
 # Activate sdkman
 source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Activate pyenv
+eval "$(pyenv init -)"
