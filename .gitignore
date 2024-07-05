@@ -1,5 +1,6 @@
 # ignore other directories in ~/.config as required
 btop/
+fish/
 gspread/
 iterm2/
 jgit/
