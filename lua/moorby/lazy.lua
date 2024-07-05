@@ -19,17 +19,17 @@ local opts = {
 		colorscheme = { "monokai" }
 	},
 	rtp = {
-        disabled_plugins = {
-            "gzip",
-            "matchit",
-            "matchparen",
-            "netrw",
-            "netrwPlugin",
-            "tarPlugin",
-            "tohtml",
-            "tutor",
-            "zipPlugin",
-        }
+    disabled_plugins = {
+        "gzip",
+        "matchit",
+        "matchparen",
+        "netrw",
+        "netrwPlugin",
+        "tarPlugin",
+        "tohtml",
+        "tutor",
+        "zipPlugin",
+    }
 	},
 	change_detection = {
 		enabled = true,
@@ -38,8 +38,9 @@ local opts = {
 }
 
 require("lazy").setup(
-    {
-        {import = "moorby.plugins"}
-    },
-    opts
+  {
+    { import = "moorby.plugins" },
+    { import = "moorby.plugins.lsp" }
+  },
+  opts
 )
