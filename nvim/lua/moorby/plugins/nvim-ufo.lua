@@ -64,6 +64,7 @@ return {
       end
     end, { desc = "Peek Fold" })
 
+    -- Disable folding in NeoGit windows
     vim.api.nvim_create_augroup("nvim-ufo_neogit", { clear = true })
 
     vim.api.nvim_create_autocmd(
@@ -78,5 +79,22 @@ return {
         end
       }
     )
+
+    -- Disable folding in select filetypes
+    vim.api.nvim_create_augroup("nvim-ufo_files", { clear = true })
+
+    vim.api.nvim_create_autocmd(
+      "FileType",
+      {
+        group = "nvim-ufo_files",
+        pattern = "markdown",
+        callback = function()
+          require("ufo").detach()
+          vim.opt_local.foldenable = false
+          vim.wo.foldcolumn = "0"
+        end
+      }
+    )
+
   end,
 }
