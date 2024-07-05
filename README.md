@@ -13,3 +13,4 @@ Most of this setup is a copy of [this](https://github.com/radleylewis/nvim) nvim
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+- [vim-illuminate](https://github.com/RRethy/vim-illuminate)
