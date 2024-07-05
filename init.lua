@@ -1,3 +1,2 @@
-require("plugins-setup")
-require("core.options")
-require("core.keymaps")
+require("moorby.core")
+require("moorby.lazy")
