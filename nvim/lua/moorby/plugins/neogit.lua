@@ -23,5 +23,13 @@ return {
       kind = "split",
 
     })
+
+    -- Set keymaps
+    local keymap = vim.keymap
+
+    keymap.set("n", "<leader>gs", ":Neogit<CR>", {desc =  "Neogit: open default git status window"})
+    keymap.set("n", "<leader>gp", ":Neogit pull<CR>", {desc = "Neogit pull command"})
+    keymap.set("n", "<leader>gP", ":Neogit push<CR>", {desc = "Neogit push command"})
+    keymap.set("n", "<leader>gl", ":Neogit log<CR>", {desc = "Neogit: open git log"})
   end
 }
