@@ -1,13 +1,29 @@
+-- Catpucin Mocha colours
+-- return {
+--   "catppuccin/nvim",
+--   lazy = false,
+--   priority = 1000,
+--   opts = {},
+--   config = function()
+--     require("catppuccin").setup({
+--       flavour = "mocha"
+--     })
+--
+--     vim.cmd.colorscheme "catppuccin"
+--   end
+-- }
+
+-- Tokyonight Night colours
 return {
-  "catppuccin/nvim",
+  "folke/tokyonight.nvim",
   lazy = false,
   priority = 1000,
   opts = {},
   config = function()
-    require("catppuccin").setup({
-      flavour = "mocha"
+    require("tokyonight").setup({
+      style = "moon"
     })
 
-    vim.cmd.colorscheme "catppuccin"
+    vim.cmd.colorscheme "tokyonight"
   end
 }
