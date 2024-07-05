@@ -11,21 +11,21 @@ y = 10
 [font]
 size = 15
 
+[font.normal]
+family = "Cousine Nerd Font Mono"
+style = "Regular"
+
 [font.bold]
-family = "MesloLGS NF"
+family = "Cousine Nerd Font Mono"
 style = "Bold"
 
-[font.bold_italic]
-family = "MesloLGS NF"
-style = "Bold Italic"
-
 [font.italic]
-family = "MesloLGS NF"
-style = "Regular Italic"
+family = "Cousine Nerd Font Mono"
+style = "Italic"
 
-[font.normal]
-family = "MesloLGS NF"
-style = "Regular"
+[font.bold_italic]
+family = "Cousine Nerd Font Mono"
+style = "BoldItalic"
 
 # TokyoNight Alacritty Colors
 # Default colors
