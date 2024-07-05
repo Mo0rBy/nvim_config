@@ -1,4 +1,6 @@
-# Personan Nevim configuration
+# Personal Neovim configuration
+
+Most of this setup is a copy of [this](https://github.com/radleylewis/nvim) nvim configuration. There is also a [video](https://www.youtube.com/watch?v=ZjMzBd1Dqz8&t=3918s) going over the steps of installing all the plugins included their own configuration.
 
 ## Plugin used
 - [Lazy Plugin Manager](https://github.com/folke/lazy.nvim)
