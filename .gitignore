@@ -18,6 +18,7 @@
 # ignore zcompdump files, autocompletion files will be generated over time as ZSH is used
 zsh/.zcompdump*
 zsh/.zsh_history
+zsh/.zsh_sessions
 
 # unignore tmux config
 !tmux/
