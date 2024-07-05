@@ -1,4 +1,4 @@
 return {
-  "towolf/vim-helm",
+  "sheerun/vim-polyglot",
   lazy = false
 }
