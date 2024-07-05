@@ -116,6 +116,9 @@ fi
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
+# Required for HomeBrew to work correctly
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Set keybinds for natural text editing
 # Linux keybinds
 bindkey "^[[1;3D" backward-word
