@@ -11,6 +11,10 @@
 # unignore alacritty config
 !alacritty/alacritty.toml
 
+# unignore zsh configs
+!zsh/
+!zsh/**
+
 # unignore tmux config
 !tmux/tmux.conf
 
