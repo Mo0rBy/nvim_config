@@ -6,9 +6,10 @@ This repository contains files relevant to my development environment and other 
 
 - [Tmux](#tmux)
   * [Relevant files](#relevant-files)
+  * [Plugins](#plugins)
 - [Neovim](#neovim)
   * [Relevant files](#relevant-files-1)
-  * [Plugins](#plugins)
+  * [Plugins](#plugins-1)
     + [Quality of life](#quality-of-life)
     + [Colourscheme/themeing/UI modifications](#colourschemethemeingui-modifications)
     + [Syntax highlighting](#syntax-highlighting)
@@ -25,7 +26,13 @@ I use my terminal ALL the time. [Tmux](https://github.com/tmux/tmux) helps me to
 
 ### Relevant files
 
-- [tmux/tmux.conf](tmux/tmux.conf)
+- [tmux/tmux](tmux)
+
+### Plugins
+
+- [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) - adds useful keymaps for navigating splits within vim and tmux
+- [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) - saves tmux windows & sessions when machine is restarted
+- [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) - continuously auto-saves the state of tmux (works nicely with tmux-resurrect)
 
 ## Neovim
 
