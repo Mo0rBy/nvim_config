@@ -132,9 +132,6 @@ bindkey "^[[1;5C" end-of-line
 # Enable zoxide (https://github.com/ajeetdsouza/zoxide)
 eval "$(zoxide init zsh)"
 
-# Alias bat to cat
-alias cat="bat"
-
 # Aliases for eza (better ls)
 alias ld="eza -lD" # lists only directories (no files)
 alias lf="eza -lF --color=always | grep -v /" # lists only files (no directories)
