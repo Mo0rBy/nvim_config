@@ -48,29 +48,13 @@ This should create some new files in your `$HOME` directory, namely the `.zshenv
 
 2. In order to use the ZSH configuration in this repo, you need to complete a few more steps.
 Remove both `.zshenv` and `.zshrc` files that were generated when installing ZSH.
-Next symlink these paths with the files in this configuration: (the commands below assume that this repo is cloned to `~/.config`)  
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 525af1a ([WIP] Adding zsh configs to repo and updating README)
-```sh
-  ln -s ~/.config/zsh/.zshenv ~/.zshenv
-  ln -s ~/.config/zsh/.zshrc ~/.zshrc
-```
-
-3. Install ohmyzsh following their instructions [here](https://github.com/ohmyzsh/ohmyzsh) (this is a widely used tool that adds a ton of customization to the ZSH shell).
-
-
-<<<<<<< HEAD
-=======
-=======
+Next, symlink the `.zshenv` file: (this command assumes that this repo is cloned to `~/.config`, modify the command if required)
     ```sh
-    ln -s ~/.config/zsh/.zshenv ~/.zshenv
-    ln -s ~/.config/zsh/.zshrc ~/.zshrc
+      ln -s ~/.config/zsh/.zshenv ~/.zshenv
     ```
-    This repository has a git submodule for the oh-my-zsh repository and the included `.zshrc` has a line telling ZSH where the oh-my-zsh installation is located.
->>>>>>> 1695d46 (Adding .zshenv and .zshrc files for ZSH config. Added oh-my-zsh as a git submodule. Added info to README describing how to install ZSH and symlink the relevant ZSH config files.)
->>>>>>> 525af1a ([WIP] Adding zsh configs to repo and updating README)
+    The `.zshenv` file in this repo contains some configuration that tells ZSH that the remaining config files are located in `$HOME/.config/zsh`.
+
+    This repository has a git submodule for the oh-my-zsh repository and the included `.zshrc` has a line telling ZSH where the oh-my-zsh installation is located so there is no need to install it separately.
 
 ## Tmux
 
