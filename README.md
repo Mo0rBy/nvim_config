@@ -192,3 +192,20 @@ All my custom scripts are stored in the `scripts` directory and more child direc
 
 In the future, I will create a "setup script" that can be run to setup and install this entire dot-files repository.
 The main point of this will be to create a number of symlinks and run installation commands (if possible).
+
+
+
+
+---
+
+Need to add a new part of the README that describes how to setup on a branch new machine:
+
+1. symlink zshenv file
+2. Install HomeBrew
+3. Install Brew file with `brew bundle install --file=Brewfile`
+4. git submodule update --init --recursive
+5. Navigate to .config/zsh/.oh-my-zsh
+6. Run tools/upgrade.sh
+7. Install p10k (git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k) (config should be loaded automatically by restarting terminal)
+8. Install SDKMan (curl -s "https://get.sdkman.io" | bash)
+
