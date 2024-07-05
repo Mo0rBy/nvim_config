@@ -126,11 +126,12 @@ bindkey "^[[1;5C" end-of-line
 # Therefore, cannot use "beginning-of-line" & "end-of-line" correctly.
 
 # Additional CLI tools required setup
-# Enable fzf (https://github.com/junegunn/fzf)
+# Enable fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Enable zoxide (https://github.com/ajeetdsouza/zoxide)
+# Enable zoxide
 eval "$(zoxide init zsh)"
+alias cd="z"
 
 # Aliases for eza (better ls)
 alias ld="eza -lD" # lists only directories (no files)
@@ -139,3 +140,5 @@ alias lh="eza -dl .* --group-directories-first" # lists only hidden files (no di
 alias ll="eza -al --group-directories-first" # lists everything with directories first
 alias ls="eza -alF --color=always --sort=size | grep -v /" # lists only files sorted by size
 alias lt="eza -al --sort=modified" # lists everything sorted by time updated
+
+
