@@ -25,12 +25,11 @@ return {
         "dockerls",
         "docker_compose_language_service",
         "eslint",
-        "flux_lsp",
         "golangci_lint_ls",
         "gopls",
         "groovyls",
         "html",
-        "htmx",
+        -- "htmx", -- leaving this out for now as it does not install correctly and it looks to be a very new LSP server
         "helm_ls",
         "jsonls",
         "java_language_server",
