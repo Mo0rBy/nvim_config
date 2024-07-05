@@ -10,3 +10,4 @@ Most of this setup is a copy of [this](https://github.com/radleylewis/nvim) nvim
 - [monokai colorscheme](https://github.com/tanvirtin/monokai.nvim)
 - [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [comment](https://github.com/numToStr/Comment.nvim)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
