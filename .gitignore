@@ -35,9 +35,9 @@ nvim/lazy-lock.json
 !k9s/
 !k9s/**
 
-# unignore linux-scripts directory
-!linux-scripts/
-!linux-scripts/**
+# unignore scripts directory
+!scripts/
+!scripts/**
 
 # unignore Brewfile
 !Brewfile

@@ -13,7 +13,6 @@ This repository contains files relevant to my development environment and other 
   * [Setup](#setup-2)
   * [Theming options](#theming-options)
   * [Plugins](#plugins)
-- [Extra CLI Tools](#extra-cli-tools)
 - [Neovim](#neovim)
   * [Plugins](#plugins-1)
     + [Quality of life](#quality-of-life)
@@ -24,6 +23,8 @@ This repository contains files relevant to my development environment and other 
     + [Note Taking](#note-taking)
 - [K9s](#k9s)
   * [Setup](#setup-3)
+- [Extra CLI Tools](#extra-cli-tools)
+- [Custom Scripts](#custom-scripts)
 
 <!-- tocstop -->
 
@@ -92,20 +93,6 @@ I highly recommend playing with the options inside your `tmux.conf` file, just t
 - [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) - adds useful keymaps for navigating splits within vim and tmux
 - [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) - saves tmux windows & sessions when machine is restarted
 - [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) - continuously auto-saves the state of tmux (works nicely with tmux-resurrect)
-
-## Extra CLI Tools
-
-Here is a list with the links to the relevant Github pages for CLI tools that I like to use in my setup.
-My `.zshrc` file contains some aliases for these CLI tools, so you must make sure they are installed for these aliases to work correctly.
-
-- [eza](https://github.com/eza-community/eza) (a better `ls` command)
-- [bat](https://github.com/sharkdp/bat) (a better `cat` command)
-- [zoxide](https://github.com/ajeetdsouza/zoxide) (a better `cd` command)
-- [fzf](https://github.com/junegunn/fzf) (a really nice fuzzyfinder tool)
-- [ripgrep](https://github.com/BurntSushi/ripgrep) (a better `grep` command)
-- [sdkman](https://sdkman.io/) (helps to install and organize SDK's (JDK's, Maven, Gradle, etc))
-- [pyenv](https://github.com/pyenv/pyenv) (tool that helps to manage multiple python versions)
-- [silicon](https://github.com/Aloxaf/silicon) (allows you to take nice screenshots of code)
 
 ## Neovim
 
@@ -183,3 +170,25 @@ It's a very intuative UI with sensible keyboard shortcuts and you can add config
 This one is pretty easy!
 Just install K9s using your preferred method and it will automatically be setup to read it's config file inside the `$XDG_CONFIG_HOME/k9s` directory.
 It really is as simple as that!
+
+## Extra CLI Tools
+
+Here is a list with the links to the relevant Github pages for CLI tools that I like to use in my setup.
+My `.zshrc` file contains some aliases for these CLI tools, so you must make sure they are installed for these aliases to work correctly.
+
+- [eza](https://github.com/eza-community/eza) (a better `ls` command)
+- [bat](https://github.com/sharkdp/bat) (a better `cat` command)
+- [zoxide](https://github.com/ajeetdsouza/zoxide) (a better `cd` command)
+- [fzf](https://github.com/junegunn/fzf) (a really nice fuzzyfinder tool)
+- [ripgrep](https://github.com/BurntSushi/ripgrep) (a better `grep` command)
+- [sdkman](https://sdkman.io/) (helps to install and organize SDK's (JDK's, Maven, Gradle, etc))
+- [pyenv](https://github.com/pyenv/pyenv) (tool that helps to manage multiple python versions)
+- [silicon](https://github.com/Aloxaf/silicon) (allows you to take nice screenshots of code)
+
+## Custom Scripts
+
+I am new to creating custom scripts for my workflows and for this reason I only have 2 currently.
+All my custom scripts are stored in the `scripts` directory and more child directories exist here to categorize different scripts.
+
+In the future, I will create a "setup script" that can be run to setup and install this entire dot-files repository.
+The main point of this will be to create a number of symlinks and run installation commands (if possible).
