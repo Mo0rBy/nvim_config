@@ -15,9 +15,6 @@ local opts = {
 	defaults = {
 		lazy = true,
 	},
-	install = {
-		colorscheme = { "tokyonight" }
-	},
 	rtp = {
     disabled_plugins = {
         "gzip",
