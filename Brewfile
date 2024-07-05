@@ -36,6 +36,8 @@ brew "gitlint"
 brew "gnu-sed"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Database migrations CLI tool
+brew "golang-migrate"
 # Open-source video transcoder available for Linux, Mac, and Windows
 brew "handbrake"
 # Kubernetes package manager
