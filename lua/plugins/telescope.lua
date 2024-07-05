@@ -41,7 +41,7 @@ local keymappings = {
 return {
   "nvim-telescope/telescope.nvim",
   branch = "0.1.x",
-  lazy = true,
+  lazy = false,
   dependencies = { "nvim-lua/plenary.nvim" },
   config = config,
   keys = keymappings,
