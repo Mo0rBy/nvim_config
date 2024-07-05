@@ -104,6 +104,7 @@ My `.zshrc` file contains some aliases for these CLI tools, so you must make sur
 - [ripgrep](https://github.com/BurntSushi/ripgrep) (a better `grep` command)
 - [sdkman](https://sdkman.io/) (helps to install and organize SDK's (JDK's, Maven, Gradle, etc))
 - [pyenv](https://github.com/pyenv/pyenv) (tool that helps to manage multiple python versions)
+- [lazygit](https://github.com/jesseduffield/lazygit) (a git terminal GUI, I use this as well as vanilla git commands. This can be really handy for rebasing.)
 
 ## Neovim
 
@@ -139,7 +140,7 @@ This is a list of all the plugins I use in my Neovim config.
 
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - provides better syntax highlighting, this has dependencies for:
     - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - autoclose and autorename html tags
-- [vim-ployglot](https://github.com/sheerun/vim-polyglot) - this plugin is a language pack that adds syntax highlighting support for ~150 more languages. This includes adding `helm` filetypes which is one of the reasons I use it
+- [vim-polyglot](https://github.com/sheerun/vim-polyglot) - this plugin is a language pack that adds syntax highlighting support for ~150 more languages. This includes adding `helm` filetypes which is one of the reasons I use it
 - [tree-sitter-go-tempalte](https://github.com/ngalaiko/tree-sitter-go-template) - adds syntax highlighting for Go template filetypes
 
 #### Auto-completion features
@@ -158,10 +159,11 @@ This is a list of all the plugins I use in my Neovim config.
 #### Git
 
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - adds git integration to buffers so you can see git changes + git blame etc
+- [lazygit](https://github.com/kdheepak/lazygit.nvim) - this plugin adds lazygit integration into neovim so that it can be called with a keymap
 
 ## K9s
 
-As a DevOps Engineer / SRE, I interact with Kubernetes clusters multiple times a day, every day.
+As a DevOps Engineer / SRE, I interact with Kubernetes clusters literally all day, almost every day.
 For this reason, I use the K9s terminal GUI as a great way to understand whatever is happening in a K8s cluster at any given time.
 It's a very intuative UI with sensible keyboard shortcuts and you can add configuration options in a file just like alacritty and tmux!
 
