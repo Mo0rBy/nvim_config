@@ -29,7 +29,7 @@ return {
       "quick_lint_js",
       "tsserver",
       "jqls",
-      -- "lua_ls", -- lua needs some extra configuration so it is done separately
+      "lua_ls",
       "marksman",
       "pyright",
       "terraformls",
@@ -98,30 +98,45 @@ return {
     end
 
     for _, lsp in pairs(ensure_installed) do
-      lspconfig[lsp].setup({
-        capabilities = capabilities,
-        on_attach = on_attach,
-      })
-    end
-
-    -- configure lua_ls with special settings
-    lspconfig["lua_ls"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-      settings = {
-        Lua = {
-          diagnostics = {
-            globals = { "vim" },
-          },
-          workspace = {
-            library = {
-              [vim.fn.expand("$VIMRUNTIME/lua")] = true,
-              [vim.fn.stdpath("config") .. "/lua"] = true,
+      if (lsp == "lua_ls") then -- configure lua_ls with special settings
+        lspconfig["lua_ls"].setup({
+          capabilities = capabilities,
+          on_attach = on_attach,
+          settings = {
+            Lua = {
+              diagnostics = {
+                globals = { "vim" },
+              },
+              workspace = {
+                library = {
+                  [vim.fn.expand("$VIMRUNTIME/lua")] = true,
+                  [vim.fn.stdpath("config") .. "/lua"] = true,
+                }
+              }
             }
           }
-        }
-      }
-    })
+        })
 
+      elseif(lsp == "yamlls") then -- configure yamlls with special settings
+        lspconfig["yamlls"].setup({
+          capabilities = capabilities,
+          on_attach = function(client, bufnr)
+            on_attach(client, bufnr) -- run the standard on_attach function defined above
+
+            -- disable yamlls Diagnostics on helm files (this is dependent on "towolf/vim-helm")
+            -- without this the yamlls LSP server will show loads of errors in helm chart repositories
+            if vim.bo[bufnr].buftype ~= "" or vim.bo[bufnr].filetype == "helm" then
+              vim.diagnostic.disable()
+            end
+          end
+        })
+
+      else -- add more conditionals for other LSP's if required
+        lspconfig[lsp].setup({
+          capabilities = capabilities,
+          on_attach = on_attach,
+        })
+      end
+    end
   end
 }
