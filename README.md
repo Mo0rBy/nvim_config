@@ -4,6 +4,7 @@ This repository contains files relevant to my development environment and other 
 
 <!-- toc -->
 
+- [Cross-application colourscheme](#cross-application-colourscheme)
 - [Alacritty](#alacritty)
   * [Relevant files](#relevant-files)
   * [Setup](#setup)
@@ -29,6 +30,12 @@ This repository contains files relevant to my development environment and other 
 
 <!-- tocstop -->
 
+## Cross-application colourscheme
+
+I use the [Catppuccin Mocha](https://github.com/catppuccin) colourscheme.
+I've experimented with a few different colourschemes and for now I have chosen Catppuccin because it is very well supported by many different applications.
+This means that I don't have much trouble in getting it to work across all the different tools that I use and it makes my life much easier.
+
 ## Alacritty
 
 I use [Alacritty](https://github.com/alacritty/alacritty) for my terminal needs. 
@@ -44,8 +51,7 @@ Be aware that I had issues on my Linux Ubuntu machine.
 When attempting to install alacritty with `apt install alacritty`, version 0.11.0 was installed, not the latest version (0.13.1 at time of writing).
 This meant that my `alacritty.toml` config file was not used as this older version used a `yaml` file for it's config.
 
-To ensure you have the latest version installed and that the `toml` config file works, follow [these](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) instructions on the Alacritty Github page.
-
+To ensure you have the latest version installed and that the `toml` config file works, follow [these](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) instructions on the Alacritty Github page or use HomeBrew on MacOS or Linux.
 ## ZSH
 
 I use ZSH as my shell of choice as it has really nice customization options using oh-my-zsh and I love the autocomplete features it comes with.
