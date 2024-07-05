@@ -6,6 +6,7 @@ iterm2/
 jgit/
 op/
 packer/
+ranger/
 
 # ignore files in nvim
 nvim/lazy-lock.json
