@@ -25,8 +25,10 @@ This repository contains files relevant to my development environment and other 
 I use [Alacritty](https://github.com/alacritty/alacritty) for my terminal needs. 
 It's super fast and I love that all it's configuration and settings are set in a toml file
 
-Be aware that I ad issues on my Linux Ubuntu machine.
-When attempting to installed alacritty with `apt install alcritty`, version 0.11.0 was installed, not the latest version (0.13.1 at time of writing).
+### Setup
+
+Be aware that I had issues on my Linux Ubuntu machine.
+When attempting to install alacritty with `apt install alacritty`, version 0.11.0 was installed, not the latest version (0.13.1 at time of writing).
 This meant that my `alacritty.toml` config file was not used as this older version used a `yaml` file for it's config.
 
 To ensure you have the latest version installed and that the `toml` config file works, follow [these](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) instructions on the Alacritty Github page.
@@ -38,6 +40,16 @@ To ensure you have the latest version installed and that the `toml` config file 
 ## Tmux
 
 I use my terminal ALL the time. [Tmux](https://github.com/tmux/tmux) helps me to increase my productivity when in my terminal. The primary utility of Tmux is that it allows me to quickly switch between Neovim and a CLI terminal window.
+
+### Setup
+
+Install tmux using your preferred method.
+I did not have any issues installing the latest version using the `apt` package manager like I did with alacritty.
+
+To ensure that the `tmux/tmux.conf` file is loaded, open a tmux session and use the default keymap (`Ctrl+b`) and press `:` to enter the tmux command mode and execute `source-file ~/.config/tmux/tmux.conf` to load the config.
+If the default `Ctrl+b` doesn't work, then try `Ctrl+a`, this is what I have it set to in my config.
+
+Once the `tmux.conf` has been loaded for the first time, then you can use `Ctrl+a`, `r` to refresh the tmux config.
 
 ### Relevant files
 
