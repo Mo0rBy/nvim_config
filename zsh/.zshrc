@@ -146,3 +146,6 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # Activate pyenv
 eval "$(pyenv init -)"
+
+# Custom aliases
+alias nn="nvim -c NewNote"
