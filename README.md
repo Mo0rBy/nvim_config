@@ -15,6 +15,7 @@ This repository contains files relevant to my development environment and other 
   * [Setup](#setup-2)
   * [Theming options](#theming-options)
   * [Plugins](#plugins)
+- [Extra CLI Tools](#extra-cli-tools)
 - [Neovim](#neovim)
   * [Relevant files](#relevant-files-3)
   * [Plugins](#plugins-1)
@@ -99,6 +100,17 @@ I highly recommend playing with the options inside your `tmux.conf` file, just t
 - [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) - adds useful keymaps for navigating splits within vim and tmux
 - [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) - saves tmux windows & sessions when machine is restarted
 - [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) - continuously auto-saves the state of tmux (works nicely with tmux-resurrect)
+
+## Extra CLI Tools
+
+Here is a list with the links to the relevant Github pages for CLI tools that I like to use in my setup.
+My `.zshrc` file contains some aliases for these CLI tools, so you must make sure they are installed for these aliases to work correctly.
+
+- [eza](https://github.com/eza-community/eza) (a better `ls` command)
+- [bat](https://github.com/sharkdp/bat) (a better `cat` command)
+- [zoxide](https://github.com/ajeetdsouza/zoxide) (a better `cd` command)
+- [fzf](https://github.com/junegunn/fzf) (a really nice fuzzyfinder tool)
+- [ripgrep](https://github.com/BurntSushi/ripgrep) (a better `grep` command)
 
 ## Neovim
 
