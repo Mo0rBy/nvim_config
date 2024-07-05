@@ -28,3 +28,4 @@ This neovim config is used by myself on a daily basis. This config uses lazy.nvi
     - [plenary](https://github.com/nvim-lua/plenary.nvim) - adds extra lua functions
     - [ripgrep](https://github.com/BurntSushi/ripgrep) - a tool that can recursively search across directories for a regex pattern
 - [vim-illuminate](https://github.com/RRethy/vim-illuminate) - this plugin will highlight other instances of a word that the cursor is on
+- [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank) - this plugin highlights what was just yanked (copied)
