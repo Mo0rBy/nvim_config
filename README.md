@@ -16,7 +16,8 @@ This neovim config is used by myself on a daily basis. This config uses lazy.nvi
     - [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
     - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
     - [lspkind](https://github.com/onsails/lspkind.nvim)
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - provides better syntax highlighting
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - provides better syntax highlighting, this has dependencies for:
+    - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - autoclose and autorename html tags
 - [comment](https://github.com/numToStr/Comment.nvim) - used for better commenting functionality, this has dependencies for:
     - [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - used for better commenting in files with multiple comment formats
 - [vim-maximizer](https://github.com/szw/vim-maximizer) - used to maximize (and return to normal) a split
