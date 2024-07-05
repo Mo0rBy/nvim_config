@@ -138,6 +138,7 @@ This is a list of all the plugins I use in my Neovim config.
 - [comment](https://github.com/numToStr/Comment.nvim) - used for better commenting functionality, this has dependencies for:
     - [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - used for better commenting in files with multiple comment formats
 - [vim-surround](https://github.com/tpope/vim-surround) - adds useful keymaps to modify textobject surroundings
+- [cutlass](https://github.com/gbprod/cutlass.nvim) - modifies delete keys to use the blackhole register to make copy/paste/delete workflows easier
 
 #### Colourscheme/themeing/UI modifications
 
