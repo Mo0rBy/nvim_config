@@ -8,3 +8,6 @@ packer/
 
 # ignore files in nvim
 nvim/lazy-lock.json
+
+# ignore plugins cloned by tpm
+tmux/plugins/
