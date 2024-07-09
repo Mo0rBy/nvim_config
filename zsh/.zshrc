@@ -11,6 +11,10 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="$XDG_CONFIG_HOME/zsh/.oh-my-zsh"
 
+# Required for HomeBrew to work correctly
+# Needs to be executed early on for terminal enviornment to launch and work correctly
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -115,9 +119,6 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
-
-# Required for HomeBrew to work correctly
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Set keybinds for natural text editing
 # Linux keybinds
