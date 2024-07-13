@@ -104,10 +104,13 @@ return {
           end,
           opts = { buffer = true },
         },
-      }
       },
       attachments = {
         img_folder = img_folder_path(),
+        img_text_func = function(client, path)
+          path = client:vault_relative_path(path) or path
+          return string.format("![%s](%s)", path.name, path)
+        end,
       },
     })
 
