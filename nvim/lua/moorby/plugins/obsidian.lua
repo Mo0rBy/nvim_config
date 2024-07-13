@@ -47,6 +47,11 @@ local create_note_func = function()
   )
 end
 
+-- Returns a string
+-- which is the path the ${parent}/assets
+local img_folder_path = function()
+  return string.format("%s/assets", vim.fn.expand("%:p:h"))
+end
 
 return {
   "epwalsh/obsidian.nvim",
@@ -100,6 +105,10 @@ return {
           opts = { buffer = true },
         },
       }
+      },
+      attachments = {
+        img_folder = img_folder_path(),
+      },
     })
 
     -- This custom command is needed to launch nvim and immeadiately execute the "create_note_func" function
