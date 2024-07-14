@@ -123,5 +123,6 @@ return {
     -- Set useful keymaps
     local keymap = vim.keymap
     keymap.set("n", "<leader>ft", ":s/\\(# \\)[^_]*_/\\1/ | s/-/ /g | noh<CR>", { desc = "Format note title (cursor must be on title line)" })
+    keymap.set("n", "<leader>opi", ":ObsidianPasteImg<CR>", { desc = "Obsidian Paste Image. Paste image link into note." })
   end
 }
