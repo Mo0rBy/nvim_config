@@ -5,12 +5,11 @@ This repository contains files relevant to my development environment and other 
 <!-- toc -->
 
 - [Cross-application colourscheme](#cross-application-colourscheme)
-- [Alacritty](#alacritty)
-  * [Setup](#setup)
+- [WezTerm](#wezterm)
 - [ZSH](#zsh)
-  * [Setup](#setup-1)
+  * [Setup](#setup)
 - [Tmux](#tmux)
-  * [Setup](#setup-2)
+  * [Setup](#setup-1)
   * [Theming options](#theming-options)
   * [Plugins](#plugins)
 - [Neovim](#neovim)
@@ -22,7 +21,7 @@ This repository contains files relevant to my development environment and other 
     + [Git](#git)
     + [Note Taking](#note-taking)
 - [K9s](#k9s)
-  * [Setup](#setup-3)
+  * [Setup](#setup-2)
 - [Extra CLI Tools](#extra-cli-tools)
 - [Custom Scripts](#custom-scripts)
 
@@ -34,18 +33,11 @@ I use the [Tokyonight Moon](https://github.com/folke/tokyonight.nvim) coloursche
 I've experimented with a few different colourschemes and for now I have chosen Tokyonight because it is very well supported by many different applications.
 This means that I don't have much trouble in getting it to work across all the different tools that I use and it makes my life much easier.
 
-## Alacritty
+## WezTerm
 
-I use [Alacritty](https://github.com/alacritty/alacritty) for my terminal needs. 
-It's super fast and I love that all it's configuration and settings are set in a toml file
-
-### Setup
-
-Be aware that I had issues on my Linux Ubuntu machine.
-When attempting to install alacritty with `apt install alacritty`, version 0.11.0 was installed, not the latest version (0.13.1 at time of writing).
-This meant that my `alacritty.toml` config file was not used as this older version used a `yaml` file for it's config.
-
-To ensure you have the latest version installed and that the `toml` config file works, follow [these](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) instructions on the Alacritty Github page or use HomeBrew on MacOS or Linux.
+I use [WezTerm](https://wezfurlong.org/wezterm/) for my terminal needs. 
+It's written using Rust and utlises the GPU for it's rendering, resulting in a super fast experience.
+I also love that all it's configuration and settings are set sing lua config files, just like with Neovim.
 
 ## ZSH
 
