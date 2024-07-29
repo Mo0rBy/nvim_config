@@ -31,7 +31,7 @@ return {
         -- "htmx", -- leaving this out for now as it does not install correctly and it looks to be a very new LSP server
         "helm_ls",
         "jsonls",
-        "java_language_server",
+        -- "java_language_server",
         "quick_lint_js",
         "tsserver",
         "jqls",
