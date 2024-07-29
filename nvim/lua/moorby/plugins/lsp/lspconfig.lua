@@ -24,7 +24,7 @@ return {
       "htmx",
       "helm_ls",
       "jsonls",
-      "java_language_server",
+      -- "java_language_server",
       "quick_lint_js",
       "tsserver",
       "jqls",
