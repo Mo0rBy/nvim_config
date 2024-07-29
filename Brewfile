@@ -161,3 +161,5 @@ cask "tradingview"
 cask "tunnelblick"
 # Open-source code editor
 cask "visual-studio-code"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
