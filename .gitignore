@@ -42,3 +42,6 @@ nvim/lazy-lock.json
 !wezterm
 !wezterm/**
 
+# unignire yazi directory
+!yazi
+!yazi/**
