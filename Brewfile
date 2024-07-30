@@ -123,6 +123,8 @@ brew "qmk/qmk/qmk"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# Chromium based browser
+cask "arc"
 # Data management tool that enables working with SQL Server
 cask "azure-data-studio"
 # Opensource IDE for exploring and testing api's
