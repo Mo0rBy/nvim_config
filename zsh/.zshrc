@@ -84,6 +84,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
   git
   tmux
+  fluxcd
 )
 
 # Plugin configuration
