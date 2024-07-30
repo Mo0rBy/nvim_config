@@ -101,6 +101,8 @@ brew "watch"
 brew "wget"
 # Access X11 clipboards from the command-line
 brew "xclip"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
