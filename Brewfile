@@ -31,6 +31,8 @@ brew "crane"
 brew "eksctl"
 # Modern, maintained replacement for ls
 brew "eza"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Linting for your git commit messages
@@ -57,8 +59,6 @@ brew "kind"
 brew "kustomize"
 # Run a Kubernetes cluster locally
 brew "minikube"
-# Fast, highly customisable system info script
-brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Platform built on V8 to build network applications
