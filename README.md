@@ -176,6 +176,7 @@ My `.zshrc` file contains some aliases for these CLI tools, so you must make sur
 - [sdkman](https://sdkman.io/) (helps to install and organize SDK's (JDK's, Maven, Gradle, etc))
 - [pyenv](https://github.com/pyenv/pyenv) (tool that helps to manage multiple python versions)
 - [silicon](https://github.com/Aloxaf/silicon) (allows you to take nice screenshots of code)
+- [yazi](https://yazi-rs.github.io/) (a terminal file explorer (similar to Ranger)
 
 ## Custom Scripts
 
