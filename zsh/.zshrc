@@ -153,3 +153,13 @@ eval "$(pyenv init -)"
 
 # Custom aliases
 alias nn="nvim -c NewNote"
+
+# Yazi function to change current directory to selected
+function yy() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
