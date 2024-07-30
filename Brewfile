@@ -107,6 +107,8 @@ brew "yazi"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Additional completion definitions for zsh
+brew "zsh-completions"
 # Flux CLI
 brew "fluxcd/tap/flux"
 # Packer
