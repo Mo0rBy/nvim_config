@@ -17,10 +17,14 @@ brew "python@3.11"
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# GNU compiler collection
+brew "gcc"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
 # Anti-virus software
 brew "clamav"
+# Cross-platform make
+brew "cmake"
 # Tool for interacting with remote images and registries
 brew "crane"
 # Simple command-line tool for creating clusters on Amazon EKS
@@ -101,6 +105,8 @@ brew "xclip"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Flux CLI
+brew "fluxcd/tap/flux"
 # Packer
 brew "hashicorp/tap/packer"
 # Cousine nerd font (cousine) font
@@ -121,6 +127,8 @@ cask "azure-data-studio"
 cask "bruno"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker"
 # Online diagram software
 cask "drawio"
 cask "font-commit-mono-nerd-font"
@@ -149,6 +157,8 @@ cask "postman"
 cask "qmk-toolbox"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Tool to reverse the direction of scrolling
+cask "scroll-reverser"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
