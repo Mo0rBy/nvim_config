@@ -128,6 +128,13 @@ return {
           }
         })
 
+      elseif (lsp == "groovyls") then -- configure groovyls with special settings
+        lspconfig["groovyls"].setup({
+          capabilities = capabilities,
+          on_attach = on_attach,
+          cmd = { "groovy-language-server" },
+        })
+
       else -- add more conditionals for other LSP's if required
         lspconfig[lsp].setup({
           capabilities = capabilities,
