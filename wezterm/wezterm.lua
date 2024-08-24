@@ -9,6 +9,8 @@ wezterm.on('gui-startup', function(cmd)
 end)
 
 return {
+  automatically_reload_config = true,
+
   -- colors
   color_scheme = "Tokyo Night Storm",
 
