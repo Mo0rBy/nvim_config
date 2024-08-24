@@ -1,6 +1,8 @@
 return {
   'akinsho/git-conflict.nvim',
   version = "*",
-  config = true,
-  lazy = false
+  lazy = false,
+  opts = {
+    disable_diagnostics = true
+  }
 }
