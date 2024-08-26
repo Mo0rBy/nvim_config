@@ -3,7 +3,8 @@ return {
   event = { "BufReadPre", "BufNewFile" },
   dependencies = {
     "hrsh7th/cmp-nvim-lsp",
-    { "antosha417/nvim-lsp-file-operations", config = true }
+    { "antosha417/nvim-lsp-file-operations", config = true },
+    "smjonas/inc-rename.nvim",
   },
   config = function()
     local lspconfig = require("lspconfig")
@@ -63,8 +64,9 @@ return {
       opts.desc = "See available code actions"
       keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts) -- see available code actions, in visual mode will apply to selection
 
-      opts.desc = "Smart rename"
-      keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts) -- smart rename
+      vim.keymap.set("n", "<leader>rn", function()
+        return ":IncRename " .. vim.fn.expand("<cword>")
+      end, { desc = "Smart rename", expr = true }) -- smart rename (depends on inc-rename plugin)
 
       opts.desc = "Show buffer diagnostics"
       keymap.set("n", "<leader>D", "<cmd>Telescope diagnostics bufnr=0<CR>", opts) -- show  diagnostics for file
