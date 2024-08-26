@@ -121,6 +121,7 @@ This is a list of all the plugins I use in my Neovim config.
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - adds a status line
 - [noice]https://github.com/folke/noice.nvim) - adds different UI elements and more customisation to notifications, cmdline and searching
 - [alpha](https://github.com/goolord/alpha-nvim) - adds a customizable greeting pane when you start neovim
+- [nvim-pqf](https://github.com/yorickpeterse/nvim-pqf) - modifies the quickfix window and makes it easier to read
 
 #### Syntax highlighting
 
