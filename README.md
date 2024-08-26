@@ -112,6 +112,7 @@ This is a list of all the plugins I use in my Neovim config.
 - [cutlass](https://github.com/gbprod/cutlass.nvim) - modifies delete keys to use the blackhole register to make copy/paste/delete workflows easier
 - [nvim-silicon](https://github.com/michaelrommel/nvim-silicon) - Adds nvim integration for Silicon code snapshot CLI tool
 - [auto-session](https://github.com/rmagatti/auto-session) - adds session management functionality
+- [nvim-rip-substitution](https://github.com/chrisgrieser/nvim-rip-substitute) - adds better find & replace functionality
 
 #### UI modifications
 
