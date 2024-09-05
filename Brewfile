@@ -9,6 +9,7 @@ tap "osx-cross/arm"
 tap "osx-cross/avr"
 tap "qmk/qmk"
 tap "warrensbox/tap"
+tap "zen-browser/browser", "https://github.com/zen-browser/desktop.git"
 # Securely store and access AWS credentials in development environments
 brew "aws-vault"
 # Interpreted, interactive, object-oriented programming language
@@ -177,3 +178,5 @@ cask "tunnelblick"
 cask "visual-studio-code"
 # GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "wezterm"
+# Beautifully designed, privacy-focused browser packed with awesome features
+cask "zen-browser"
