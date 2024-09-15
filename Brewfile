@@ -145,6 +145,8 @@ cask "font-cousine-nerd-font"
 cask "google-chrome"
 # Open source API development ecosystem
 cask "hoppscotch"
+# ZSA keyboard firmware flasher
+cask "keymapp"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Visual tool to design, develop and administer MySQL servers
