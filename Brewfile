@@ -79,6 +79,8 @@ brew "ranger"
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Rust toolchain installer
+brew "rustup"
 # Create beautiful image of your source code
 brew "silicon"
 # Tool to build, change, and version infrastructure
