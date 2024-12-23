@@ -1,24 +1,25 @@
+tap "buo/cask-upgrade"
 tap "fluxcd/tap"
+tap "gcenx/wine"
 tap "hashicorp/tap"
+tap "homebrew/core"
 tap "homebrew/bundle"
-tap "homebrew/linux-fonts"
 tap "homebrew/services"
-tap "int128/kubelogin"
-tap "jesseduffield/lazygit"
+tap "homebrew/cask"
+tap "buo/cask-upgrade"
+tap "homebrew/cask-fonts"
+tap "homebrew/linux-fonts"
+tap "lusingander/tap"
 tap "osx-cross/arm"
 tap "osx-cross/avr"
 tap "qmk/qmk"
 tap "warrensbox/tap"
 # Securely store and access AWS credentials in development environments
 brew "aws-vault"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# GNU compiler collection
-brew "gcc"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
 # Anti-virus software
@@ -35,6 +36,10 @@ brew "eza"
 brew "fastfetch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GNU compiler collection
+brew "gcc"
+# Audit git repos for secrets
+brew "gitleaks"
 # Linting for your git commit messages
 brew "gitlint"
 # GNU implementation of the famous stream editor
@@ -73,6 +78,8 @@ brew "pre-commit"
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # File browser
 brew "ranger"
 # Search tool like grep and The Silver Searcher
@@ -117,10 +124,8 @@ brew "fluxcd/tap/flux"
 brew "hashicorp/tap/packer"
 # Cousine nerd font (cousine) font
 brew "homebrew/linux-fonts/font-cousine-nerd-font", link: false
-# A kubectl plugin for Kubernetes OpenID Connect authentication
-brew "int128/kubelogin/kubelogin"
-# A simple terminal UI for git commands, written in Go
-brew "jesseduffield/lazygit/lazygit"
+# A rich git commit graph in your terminal, like magic
+brew "lusingander/tap/serie"
 # Quantum Mechanical Keyboard (QMK) Firmware
 brew "qmk/qmk/qmk"
 # Password manager that keeps all passwords secure behind one password
@@ -143,41 +148,43 @@ cask "font-commit-mono-nerd-font"
 cask "font-cousine-nerd-font"
 # Web browser
 cask "google-chrome"
-# Open source API development ecosystem
-cask "hoppscotch"
+# Open Source Multimedia Framework
+cask "gstreamer-runtime"
+# Porting tool, to make Windows programs/games into native apps
+cask "kegworks"
 # ZSA keyboard firmware flasher
 cask "keymapp"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Visual tool to design, develop and administer MySQL servers
 cask "mysqlworkbench"
-# App to write, plan, collaborate, and get organised
-cask "notion"
+# Open-source software for live streaming and screen recording
+cask "obs"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Client program for the OpenVPN Access Server
-cask "openvpn-connect"
+# Modern, open-source, and free voice chat overlay for Discord
+cask "overlayed"
 # Administration and development platform for PostgreSQL
 cask "pgadmin4"
 # Browse, manage, inspect containers and images
 cask "podman-desktop"
-# Collaboration platform for API development
-cask "postman"
+# Fitting tool for EVE Online
+cask "pyfa"
 # Toolbox companion for QMK Firmware
 cask "qmk-toolbox"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Tool to reverse the direction of scrolling
 cask "scroll-reverser"
-# Team communication and collaboration software
-cask "slack"
 # Music streaming service
 cask "spotify"
+# Video game digital distribution service
+cask "steam"
 # Charting and social-networking for investment traders
 cask "tradingview"
-# Free and open-source OpenVPN client
-cask "tunnelblick"
 # Open-source code editor
 cask "visual-studio-code"
 # GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "wezterm"
+# Compatibility layer to run Windows applications
+cask "wine-stable"
