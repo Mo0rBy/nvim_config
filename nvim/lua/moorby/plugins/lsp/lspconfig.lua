@@ -27,7 +27,7 @@ return {
       "jsonls",
       -- "java_language_server",
       "quick_lint_js",
-      "tsserver",
+      "ts_ls",
       "jqls",
       "lua_ls",
       "marksman",
