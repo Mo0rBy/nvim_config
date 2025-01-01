@@ -22,7 +22,7 @@ return {
       "gopls",
       "groovyls",
       "html",
-      "htmx",
+      -- "htmx",
       "helm_ls",
       "jsonls",
       -- "java_language_server",
