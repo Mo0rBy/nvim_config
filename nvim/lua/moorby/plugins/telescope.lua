@@ -3,12 +3,15 @@ return {
   dependencies = { "nvim-lua/plenary.nvim" },
   lazy = false,
   config = function()
+    local actions = require("telescope.actions")
+
     require("telescope").setup({
       defaults = {
         mappings = {
           i = {
-            ["<C-j>"] = "move_selection_next",
-            ["<C-k>"] = "move_selection_previous"
+            ["<C-j>"] = actions.move_selection_next,
+            ["<C-k>"] = actions.move_selection_previous,
+            ["<C-q>"] = actions.smart_send_to_qflist + actions.open_qflist
           }
         },
         pickers = {
