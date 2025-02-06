@@ -25,7 +25,7 @@ return {
       -- "htmx",
       "helm_ls",
       "jsonls",
-      -- "java_language_server",
+      "java_language_server",
       "quick_lint_js",
       "ts_ls",
       "jqls",
@@ -136,6 +136,14 @@ return {
           on_attach = on_attach,
           cmd = { "groovy-language-server" },
         })
+
+      elseif (lsp == "java_language_server") then -- configure java_language_server with special settings
+        lspconfig["groovyls"].setup({
+          capabilities = capabilities,
+          on_attach = on_attach,
+          cmd = { "java-language-server" },
+        })
+
 
       else -- add more conditionals for other LSP's if required
         lspconfig[lsp].setup({
