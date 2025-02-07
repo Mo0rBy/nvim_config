@@ -1,3 +1,7 @@
+-- TODO: This plugin config has lots of extra code in for custom functionality.
+-- Should move all these extra functions to other config files to clean this up
+-- maybe a plugins/notes directory or something? with obsidian.lua + notes/utils/*.lua files
+
 -- Set some globally used variables in this plugin config
 local home = os.getenv("HOME") or "~"
 local obsidian_vaults_dir = os.getenv("OBSIDIAN_VAULTS") or string.format("%s/Obsidian_vaults", home)
